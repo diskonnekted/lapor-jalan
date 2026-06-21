@@ -112,8 +112,13 @@ router.get("/list", (req, res) => {
  * Returns all desa boundaries (lightweight - only name, kecamatan, geometry).
  */
 router.get("/boundaries", (req, res) => {
-  const rows = db.prepare("SELECT nama_desa, kecamatan, geometry FROM desa_boundaries").all();
-  res.json(rows);
+  try {
+    const rows = db.prepare("SELECT nama_desa, kecamatan, geometry FROM desa_boundaries").all();
+    res.json(rows);
+  } catch (err) {
+    console.error("Error fetching desa boundaries:", err.message);
+    res.json([]);
+  }
 });
 
 module.exports = router;

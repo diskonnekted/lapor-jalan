@@ -191,33 +191,38 @@ router.get("/official", async (req, res) => {
 router.get("/", (req, res) => {
   const { types } = req.query;
 
-  if (types) {
-    const typeList = types.split(",").map((t) => t.trim());
-    const placeholders = typeList.map(() => "?").join(",");
-    const rows = db
-      .prepare(`SELECT * FROM osm_roads WHERE type IN (${placeholders})`)
-      .all(...typeList);
+  try {
+    if (types) {
+      const typeList = types.split(",").map((t) => t.trim());
+      const placeholders = typeList.map(() => "?").join(",");
+      const rows = db
+        .prepare(`SELECT * FROM osm_roads WHERE type IN (${placeholders})`)
+        .all(...typeList);
 
-    const result = rows.map((r) => ({
+      const result = rows.map((r) => ({
+        ...r,
+        geometry: JSON.parse(r.geometry),
+      }));
+
+      return res.json(result);
+    }
+
+    const mainRoads = db
+      .prepare(
+        `SELECT * FROM osm_roads WHERE type IN ('primary', 'secondary', 'tertiary', 'trunk', 'unclassified', 'living_street')`
+      )
+      .all();
+
+    const result = mainRoads.map((r) => ({
       ...r,
       geometry: JSON.parse(r.geometry),
     }));
 
-    return res.json(result);
+    res.json(result);
+  } catch (err) {
+    console.error("Error fetching OSM roads:", err.message);
+    res.json([]);
   }
-
-  const mainRoads = db
-    .prepare(
-      `SELECT * FROM osm_roads WHERE type IN ('primary', 'secondary', 'tertiary', 'trunk', 'unclassified', 'living_street')`
-    )
-    .all();
-
-  const result = mainRoads.map((r) => ({
-    ...r,
-    geometry: JSON.parse(r.geometry),
-  }));
-
-  res.json(result);
 });
 
 module.exports = router;
