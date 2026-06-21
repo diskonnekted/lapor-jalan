@@ -86,6 +86,8 @@ export const api = {
     request(`/api/desa/at-location?lat=${lat}&lng=${lng}`),
   getDesaList: () =>
     request('/api/desa/list'),
+  getDesaBoundaries: () =>
+    request('/api/desa/boundaries'),
 
   // Ruas Jalan
   getRuasJalan: () => request('/api/ruas-jalan/official'),

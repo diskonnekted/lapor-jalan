@@ -5,10 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon server.js",
-    "start": "node server.js",
-    "seed": "node seed.js",
-    "seed-osm": "node seed-osm.js",
-    "seed-desa": "node seed-desa.js"
+    "seed": "node seed.js && node seed-osm.js && node seed-desa.js",
+    "start": "npm run seed 2>/dev/null || true; node server.js"
   },
   "keywords": [],
   "author": "",

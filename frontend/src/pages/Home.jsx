@@ -292,8 +292,7 @@ export default function Home() {
   // Fetch desa boundaries on mount (lazy load)
   useEffect(() => {
     if (desaBoundaries.length > 0) return;
-    fetch('/api/desa/boundaries')
-      .then((r) => r.json())
+    api.getDesaBoundaries()
       .then((data) => {
         console.log(`Loaded ${data.length} desa boundaries`);
         setDesaBoundaries(data);
