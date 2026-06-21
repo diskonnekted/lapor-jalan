@@ -25,6 +25,55 @@ L.Icon.Default.mergeOptions({
   shadowUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png',
 });
 
+// Prominent marker for mobile map - large circle with ! and white border
+function createProminentMarkerIcon(level) {
+  const colors = { ringan: '#4CAF50', sedang: '#FF9800', berat: '#F44336' };
+  const color = colors[level] || '#999';
+  return L.divIcon({
+    className: '',
+    html: `
+      <div style="
+        width: 40px; height: 40px; border-radius: 50%;
+        background: ${color}; border: 4px solid white;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+        display: flex; align-items: center; justify-content: center;
+      ">
+        <div style="color: white; font-weight: bold; font-size: 20px; font-family: Arial; text-shadow: 0 1px 3px rgba(0,0,0,0.4);">!</div>
+      </div>`,
+    iconSize: [40, 40],
+    iconAnchor: [20, 20],
+    popupAnchor: [0, -22],
+  });
+}
+
+// Official road segments layer
+function OfficialRoadLayer({ show, map }) {
+  const layerRef = useRef(null);
+
+  useEffect(() => {
+    if (!show || !map) {
+      if (layerRef.current && map) map.removeLayer(layerRef.current);
+      return;
+    }
+    api.getRuasJalan().then((roads) => {
+      if (!map) return;
+      const layer = L.featureGroup();
+      roads.forEach((r) => {
+        if (r.from_lat && r.from_lng && r.to_lat && r.to_lng) {
+          L.polyline(
+            [[r.from_lat, r.from_lng], [r.to_lat, r.to_lng]],
+            { color: '#1976D2', weight: 3, opacity: 0.6 }
+          ).addTo(layer);
+        }
+      });
+      layer.addTo(map);
+      layerRef.current = layer;
+    }).catch(() => {});
+  }, [show, map]);
+
+  return null;
+}
+
 const DAMAGE_CONFIG = {
   ringan: { label: 'Ringan', color: '#4CAF50', icon: '' },
   sedang: { label: 'Sedang', color: '#FF9800', icon: '🟡' },
@@ -565,7 +614,9 @@ function PageLaporanList() {
 // Halaman: Peta
 function PagePeta({ laporan }) {
   const mapRef = useRef(null);
+  const [mapInstance, setMapInstance] = useState(null);
   const [selectedMarker, setSelectedMarker] = useState(null);
+  const [showRoads, setShowRoads] = useState(true);
 
   useEffect(() => {
     setTimeout(() => {
@@ -591,13 +642,37 @@ function PagePeta({ laporan }) {
           zoom={12}
           className="mobile-leaflet-map"
           ref={mapRef}
-          whenCreated={(map) => setTimeout(() => map.invalidateSize(), 100)}
+          whenCreated={(map) => {
+            setMapInstance(map);
+            setTimeout(() => map.invalidateSize(), 100);
+          }}
         >
           <TileLayer attribution="&copy; OpenStreetMap" url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+          <OfficialRoadLayer show={showRoads} map={mapInstance} />
           {laporan.filter((r) => r.lat && r.lng).map((r, i) => (
-            <Marker key={i} position={[r.lat, r.lng]} icon={L.divIcon({ className: '', html: `<div style="background:${DAMAGE_CONFIG[r.tingkat_kerusakan]?.color || '#999'};width:14px;height:14px;border-radius:50%;border:2px solid white;box-shadow:0 2px 4px rgba(0,0,0,0.3);"></div>`, iconSize: [14, 14], iconAnchor: [7, 7] })} />
+            <Marker key={i} position={[r.lat, r.lng]} icon={createProminentMarkerIcon(r.tingkat_kerusakan)} eventHandlers={{ click: () => setSelectedMarker(r) }} />
           ))}
         </MapContainer>
+
+        {/* Toggle button for roads */}
+        <div style={{ position: 'absolute', top: 60, right: 12, zIndex: 1000 }}>
+          <button
+            onClick={() => setShowRoads(!showRoads)}
+            style={{
+              background: showRoads ? '#1976D2' : 'white',
+              color: showRoads ? 'white' : '#1976D2',
+              border: '2px solid #1976D2',
+              borderRadius: 8,
+              padding: '8px 12px',
+              fontSize: '0.8rem',
+              fontWeight: 600,
+              boxShadow: '0 2px 8px rgba(0,0,0,0.2)',
+              cursor: 'pointer',
+            }}
+          >
+            {showRoads ? '🛣️ Jalan ON' : '🛣️ Jalan OFF'}
+          </button>
+        </div>
 
         {/* Marker Detail Modal */}
         <div className="laporan-detail-overlay" style={{ bottom: 0 }} onClick={() => setSelectedMarker(null)}>
@@ -704,12 +779,7 @@ function PagePeta({ laporan }) {
             <Marker
               key={i}
               position={[l.lat, l.lng]}
-              icon={L.divIcon({
-                className: '',
-                html: `<div style="background:${DAMAGE_CONFIG[l.tingkat_kerusakan]?.color || '#999'};width:14px;height:14px;border-radius:50%;border:2px solid white;box-shadow:0 2px 4px rgba(0,0,0,0.3);"></div>`,
-                iconSize: [14, 14],
-                iconAnchor: [7, 7],
-              })}
+              icon={createProminentMarkerIcon(l.tingkat_kerusakan)}
               eventHandlers={{ click: () => setSelectedMarker(l) }}
             />
           ))}
