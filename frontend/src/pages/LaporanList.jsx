@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
-import { api } from '../utils/api';
+import { api, resolveImageUrl } from '../utils/api';
 import { getDamageTypeById } from '../utils/damageTypes';
 
 const DAMAGE_LABELS = {
@@ -392,7 +392,7 @@ export default function LaporanList() {
             {selectedLaporan.foto_path && (
               <div style={{ marginBottom: 16 }}>
                 <strong>📸 Foto Kerusakan:</strong>
-                <img src={selectedLaporan.foto_path} alt="Foto kerusakan" style={{ width: '100%', borderRadius: 8, marginTop: 8, maxHeight: 280, objectFit: 'cover' }} />
+                <img src={resolveImageUrl(selectedLaporan.foto_path)} alt="Foto kerusakan" style={{ width: '100%', borderRadius: 8, marginTop: 8, maxHeight: 280, objectFit: 'cover' }} />
               </div>
             )}
 
@@ -466,7 +466,7 @@ export default function LaporanList() {
               {selectedLaporan.foto_perbaikan_path && (
                 <div>
                   <div style={{ fontSize: '0.8rem', color: 'var(--success)', marginBottom: 2 }}>✅ Foto Setelah Perbaikan</div>
-                  <img src={selectedLaporan.foto_perbaikan_path} alt="Foto perbaikan" style={{ width: '100%', borderRadius: 8, marginTop: 4, maxHeight: 280, objectFit: 'cover' }} />
+                  <img src={resolveImageUrl(selectedLaporan.foto_perbaikan_path)} alt="Foto perbaikan" style={{ width: '100%', borderRadius: 8, marginTop: 4, maxHeight: 280, objectFit: 'cover' }} />
                 </div>
               )}
             </div>

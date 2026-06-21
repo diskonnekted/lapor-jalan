@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { MapContainer, TileLayer, Marker, Popup, useMap } from 'react-leaflet';
 import L from 'leaflet';
 import 'leaflet.markercluster';
-import { api } from '../utils/api';
+import { api, resolveImageUrl } from '../utils/api';
 import { DAMAGE_TYPES_BY_CATEGORY, getDamageTypeById } from '../utils/damageTypes';
 import PWAInstallPrompt from '../components/PWAInstallPrompt';
 import './MobileApp.css';
@@ -428,7 +428,7 @@ function PageLaporanList() {
           </div>
           {l.foto_path && (
             <div className="detail-photo">
-              <img src={l.foto_path} alt="Foto kerusakan" />
+              <img src={resolveImageUrl(l.foto_path)} alt="Foto kerusakan" />
             </div>
           )}
           <div className="detail-body">
@@ -499,7 +499,7 @@ function PageLaporanList() {
               <div className="detail-row">
                 <span className="detail-label">Foto Setelah Perbaikan</span>
                 <div className="detail-photo-small">
-                  <img src={l.foto_perbaikan_path} alt="Foto perbaikan" />
+                  <img src={resolveImageUrl(l.foto_perbaikan_path)} alt="Foto perbaikan" />
                 </div>
               </div>
             )}
@@ -551,7 +551,7 @@ function PageLaporanList() {
                 </span>
               </div>
               {l.foto_path && (
-                <img src={l.foto_path} alt="" className="laporan-photo" />
+                <img src={resolveImageUrl(l.foto_path)} alt="" className="laporan-photo" />
               )}
             </div>
           ))}

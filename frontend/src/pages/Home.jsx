@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from 'react';
 import { MapContainer, TileLayer, Marker, Popup, Polyline, useMap } from 'react-leaflet';
 import L from 'leaflet';
 import 'leaflet.markercluster';
-import { api } from '../utils/api';
+import { api, resolveImageUrl } from '../utils/api';
 import './Home.css';
 
 // Fix Leaflet default icon issue with bundlers
@@ -101,7 +101,7 @@ function DamageMarkerCluster({ markers }) {
           <strong>${m.data.alamat || 'Lokasi Tidak Dikenal'}</strong><br/>
           <span style="display:inline-block;margin-top:4px;padding:2px 8px;border-radius:12px;font-size:0.75rem;font-weight:600;background:${m.data.tingkat_kerusakan === 'berat' ? '#FFEBEE;color:#C62828' : m.data.tingkat_kerusakan === 'sedang' ? '#FFF3E0;color:#E65100' : '#E8F5E9;color:#2E7D32'}">${m.data.tingkat_kerusakan?.toUpperCase() || 'N/A'}</span>
           ${m.data.deskripsi ? `<p style="margin-top:8px">${m.data.deskripsi}</p>` : ''}
-          ${m.data.foto_path ? `<img src="${m.data.foto_path}" style="width:100%;border-radius:4px;margin-top:8px"/>` : ''}
+          ${m.data.foto_path ? `<img src="${resolveImageUrl(m.data.foto_path)}" style="width:100%;border-radius:4px;margin-top:8px"/>` : ''}
           <div style="font-size:0.75rem;color:#999;margin-top:4px">${new Date(m.data.created_at).toLocaleDateString('id-ID')}</div>
         </div>
       `);

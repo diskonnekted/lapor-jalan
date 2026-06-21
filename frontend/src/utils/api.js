@@ -22,6 +22,21 @@ function authHeaders() {
   return token ? { Authorization: `Bearer ${token}` } : {};
 }
 
+/**
+ * Helper to resolve image URLs to the backend server.
+ * Paths like '/uploads/xyz.jpg' are prefixed with the API URL.
+ */
+export function resolveImageUrl(path) {
+  if (!path) return null;
+  if (path.startsWith("http")) return path;
+  const baseUrl = import.meta.env.VITE_API_URL || "";
+  // Remove trailing slash from baseUrl if present
+  const cleanBase = baseUrl.endsWith('/') ? baseUrl.slice(0, -1) : baseUrl;
+  // Ensure path starts with /
+  const cleanPath = path.startsWith('/') ? path : `/${path}`;
+  return `${cleanBase}${cleanPath}`;
+}
+
 export const api = {
   // Auth
   login: (username, password) =>
