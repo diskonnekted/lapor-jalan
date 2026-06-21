@@ -23,6 +23,44 @@
   width: 100%;
 }
 
+/* OSM Road Layer Styles */
+.osm-road {
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.osm-road-primary {
+  stroke: #D32F2F !important;
+  stroke-width: 3 !important;
+  opacity: 0.9 !important;
+}
+
+.osm-road-secondary {
+  stroke: #F57C00 !important;
+  stroke-width: 2.5 !important;
+  opacity: 0.85 !important;
+}
+
+.osm-road-tertiary {
+  stroke: #FBC02D !important;
+  stroke-width: 1.5 !important;
+  opacity: 0.8 !important;
+}
+
+.osm-road-trunk {
+  stroke: #B71C1C !important;
+  stroke-width: 3 !important;
+  opacity: 0.9 !important;
+}
+
+.osm-road-unclassified,
+.osm-road-living_street,
+.osm-road-residential {
+  stroke: #78909C !important;
+  stroke-width: 1.5 !important;
+  opacity: 0.7 !important;
+}
+
 @media (max-width: 768px) {
   .stats-bar .stats-grid {
     grid-template-columns: repeat(4, 1fr);

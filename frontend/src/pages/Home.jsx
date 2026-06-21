@@ -256,7 +256,7 @@ export default function Home() {
   const [damageFilter, setDamageFilter] = useState({ ringan: false, sedang: false, berat: false });
   const [loading, setLoading] = useState(true);
   const [showRuas, setShowRuas] = useState(true);
-  const [showOsmRoads, setShowOsmRoads] = useState(false);
+  const [showOsmRoads, setShowOsmRoads] = useState(true);
   const [showDesa, setShowDesa] = useState(false);
   const [desaBoundaries, setDesaBoundaries] = useState([]);
   const [fetchError, setFetchError] = useState(null);
@@ -407,9 +407,10 @@ export default function Home() {
             <Polyline
               key={`osm-${r.id}`}
               positions={r.geometry.map((coord) => [coord[1], coord[0]])}
-              color={ROAD_TYPE_COLORS[r.type] || '#1976D2'}
-              weight={r.type === 'primary' || r.type === 'trunk' ? 2 : r.type === 'secondary' ? 1.5 : 1}
-              opacity={0.6}
+              color={ROAD_TYPE_COLORS[r.type] || '#78909C'}
+              weight={r.type === 'primary' || r.type === 'trunk' ? 3 : r.type === 'secondary' ? 2.5 : 1.5}
+              opacity={0.8}
+              className={`osm-road osm-road-${r.type || 'unknown'}`}
             >
               <Popup>
                 <strong>{r.name || 'Unnamed Road'}</strong>
