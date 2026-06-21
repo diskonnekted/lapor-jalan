@@ -1,0 +1,6755 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 572,
+        "nomor_ruas": "I.10",
+        "nama_ruas": "MADUKARA-PAKELEN",
+        "titik_awal": "I.8",
+        "titik_akhir": "Masjid Dkh Pakelen",
+        "panjang_km": 4.599,
+        "lebar_m": 4
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.746665,
+            -7.379283
+          ],
+          [
+            109.733949,
+            -7.349094
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 573,
+        "nomor_ruas": "I.11",
+        "nama_ruas": "RAKITAN-PAKELEN",
+        "titik_awal": "JL PROP KM 3 BNA",
+        "titik_akhir": "Masjid Dkh Pakelen",
+        "panjang_km": 9.436,
+        "lebar_m": 4.5
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.692431,
+            -7.375351
+          ],
+          [
+            109.723561,
+            -7.337433
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 574,
+        "nomor_ruas": "I.13",
+        "nama_ruas": "BLITAR-KENTENG",
+        "titik_awal": "I.12",
+        "titik_akhir": "PASAR",
+        "panjang_km": 1.186,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.703571,
+            -7.371438
+          ],
+          [
+            109.702363,
+            -7.381241
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 575,
+        "nomor_ruas": "I.15",
+        "nama_ruas": "BANJARNEGARA-KEBUTUH JURANG",
+        "titik_awal": "JEMBATAN IRIGASI SIWULUH",
+        "titik_akhir": "TUGU BATAS KABUPATEN",
+        "panjang_km": 16.481,
+        "lebar_m": 4
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.686032,
+            -7.399578
+          ],
+          [
+            109.665489,
+            -7.493212
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 576,
+        "nomor_ruas": "I.17",
+        "nama_ruas": "SOKANANDI-SEMARANG",
+        "titik_awal": "JL NASIONAL KM 3 HM 2 BNA",
+        "titik_akhir": "I.19/VI.27",
+        "panjang_km": 5.674,
+        "lebar_m": 4.5
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.71639,
+            -7.392261
+          ],
+          [
+            109.701775,
+            -7.404567
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 577,
+        "nomor_ruas": "I.23",
+        "nama_ruas": "KARANGTENGAH-WANGON",
+        "titik_awal": "I.15/lapangan",
+        "titik_akhir": "I.28 sta 600",
+        "panjang_km": 0.556,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.682682,
+            -7.407052
+          ],
+          [
+            109.676694,
+            -7.405144
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 578,
+        "nomor_ruas": "I.25",
+        "nama_ruas": "SOKAYASA-KELAPASAWIT",
+        "titik_awal": "I.17/I.17",
+        "titik_akhir": "HUTAN",
+        "panjang_km": 3.397,
+        "lebar_m": 3.2
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.754184,
+            -7.435301
+          ],
+          [
+            109.729604,
+            -7.402566
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 579,
+        "nomor_ruas": "I.26",
+        "nama_ruas": "CENDANA-SOKAYASA",
+        "titik_awal": "I.17/I.25",
+        "titik_akhir": "I.17/I.17",
+        "panjang_km": 0.686,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.730723,
+            -7.407682
+          ],
+          [
+            109.72756,
+            -7.403121
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 580,
+        "nomor_ruas": "I.21",
+        "nama_ruas": "ARGASOKA-PAGEDONGAN",
+        "titik_awal": "I.14/I.19",
+        "titik_akhir": "I.15/I.32",
+        "panjang_km": 4.743,
+        "lebar_m": 0
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.696293,
+            -7.410815
+          ],
+          [
+            109.68801,
+            -7.439909
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 581,
+        "nomor_ruas": "V.39",
+        "nama_ruas": "SUMBEREJO-SIMBAR",
+        "titik_awal": "Jalan Prov. / Pasar Kayu",
+        "titik_akhir": "Dukuh simbar",
+        "panjang_km": 0.708,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.832375,
+            -7.206225
+          ],
+          [
+            109.834068,
+            -7.201113
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 582,
+        "nomor_ruas": "I.28",
+        "nama_ruas": "WANGON-SEMAMPIR",
+        "titik_awal": "Jl. Nasional Km. 1/polsek",
+        "titik_akhir": "I.32 sta 700",
+        "panjang_km": 1.308,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.681321,
+            -7.399814
+          ],
+          [
+            109.674947,
+            -7.404954
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 583,
+        "nomor_ruas": "I.3",
+        "nama_ruas": "BANDINGAN-SAWAL",
+        "titik_awal": "JL PROP KM 11 HM 5-6 BNA",
+        "titik_akhir": "I.4/I.4",
+        "panjang_km": 1.786,
+        "lebar_m": 4.5
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.796283,
+            -7.411997
+          ],
+          [
+            109.784162,
+            -7.422279
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 584,
+        "nomor_ruas": "I.45",
+        "nama_ruas": "MASARAN-KUTAWULUH",
+        "titik_awal": "I.42/I.42",
+        "titik_akhir": "II.7/II.7",
+        "panjang_km": 5.433,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.636161,
+            -7.410341
+          ],
+          [
+            109.596647,
+            -7.426054
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 585,
+        "nomor_ruas": "I.33",
+        "nama_ruas": "PAGEDONGAN-PESANGKALAN",
+        "titik_awal": "I.15 / I.15",
+        "titik_akhir": "BATAS KABUPATEN KEBUMEN",
+        "panjang_km": 6.178,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.697469,
+            -7.439656
+          ],
+          [
+            109.721865,
+            -7.477539
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 586,
+        "nomor_ruas": "I.6",
+        "nama_ruas": "SINGAMERTA-BUKITCINTA",
+        "titik_awal": "Jl. Nasional Km.",
+        "titik_akhir": "Hutan Pinus Dkh. Bakulan",
+        "panjang_km": 0.941,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.747889,
+            -7.415036
+          ],
+          [
+            109.741323,
+            -7.391298
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 587,
+        "nomor_ruas": "I.7",
+        "nama_ruas": "KUTAYASA-LARANGAN",
+        "titik_awal": "I.8/I.8",
+        "titik_akhir": "PASAR LARANGAN",
+        "panjang_km": 6.084,
+        "lebar_m": 4
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.746921,
+            -7.38231
+          ],
+          [
+            109.782022,
+            -7.353597
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 588,
+        "nomor_ruas": "I.8",
+        "nama_ruas": "SINGAMERTA-PAGENTAN",
+        "titik_awal": "JL PROP KM 5 HM 4-5 BNA",
+        "titik_akhir": "IV.11",
+        "panjang_km": 20.607,
+        "lebar_m": 4.5
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.742762,
+            -7.391362
+          ],
+          [
+            109.810029,
+            -7.301291
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 589,
+        "nomor_ruas": "I.35",
+        "nama_ruas": "DUREN-KEBONDALEM",
+        "titik_awal": "I.15 / I.15",
+        "titik_akhir": "I.42/I.43",
+        "panjang_km": 10.186,
+        "lebar_m": 5
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.669796,
+            -7.487963
+          ],
+          [
+            109.607397,
+            -7.466421
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 590,
+        "nomor_ruas": "I.36",
+        "nama_ruas": "PAGEDONGAN-MAJALENGKA",
+        "titik_awal": "I.36.I.36",
+        "titik_akhir": "I.35/I.42/I.43",
+        "panjang_km": 8.306,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.675302,
+            -7.437658
+          ],
+          [
+            109.621603,
+            -7.468326
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 591,
+        "nomor_ruas": "II.1",
+        "nama_ruas": "PURWANEGARA-PUCUNGBEDUG",
+        "titik_awal": "JL NAS. KM 34 HM 8 BMS",
+        "titik_akhir": "II.7/II.6",
+        "panjang_km": 6.871,
+        "lebar_m": 4
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.561567,
+            -7.434705
+          ],
+          [
+            109.59653,
+            -7.456279
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 592,
+        "nomor_ruas": "V.12",
+        "nama_ruas": "JL KH. ACMAD DAHLAN",
+        "titik_awal": "VI.2/VI.14",
+        "titik_akhir": "VI.9/VI.11",
+        "panjang_km": 0.184,
+        "lebar_m": 8
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.694444,
+            -7.397029
+          ],
+          [
+            109.694488,
+            -7.395285
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 593,
+        "nomor_ruas": "II.14",
+        "nama_ruas": "LINGKAR TERMINAL MANDIRAJA",
+        "titik_awal": "Jalan Nas.",
+        "titik_akhir": "II.11/II.12",
+        "panjang_km": 0.18,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.522832,
+            -7.452898
+          ],
+          [
+            109.523467,
+            -7.453913
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 594,
+        "nomor_ruas": "I.42",
+        "nama_ruas": "MANTRIANOM-KEBONDALEM",
+        "titik_awal": "JL PROP. KM 6 HM 5-6 BNA",
+        "titik_akhir": "I.42/I.43",
+        "panjang_km": 13.534,
+        "lebar_m": 4.5
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.604545,
+            -7.464292
+          ],
+          [
+            109.627183,
+            -7.399274
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 595,
+        "nomor_ruas": "I.43",
+        "nama_ruas": "KEBONDALEM-SILANGIT",
+        "titik_awal": "BATAS DESA",
+        "titik_akhir": "TUGU BATAS",
+        "panjang_km": 4.215,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.61662,
+            -7.495495
+          ],
+          [
+            109.602988,
+            -7.464551
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 596,
+        "nomor_ruas": "II.15",
+        "nama_ruas": "SIMBANG-GLEMPANG",
+        "titik_awal": "II.19",
+        "titik_akhir": "Jalan Prov Gandulekor-Gombong",
+        "panjang_km": 1.458,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.488112,
+            -7.473536
+          ],
+          [
+            109.477673,
+            -7.478548
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 597,
+        "nomor_ruas": "I.47",
+        "nama_ruas": "PUCANG-JENGGAWUR",
+        "titik_awal": "Jalan Nasional",
+        "titik_akhir": "III.4/III.4",
+        "panjang_km": 1.762,
+        "lebar_m": 6
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.658748,
+            -7.39808
+          ],
+          [
+            109.665677,
+            -7.38419
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 598,
+        "nomor_ruas": "II.22",
+        "nama_ruas": "BANTAR-KERTAYASA",
+        "titik_awal": "Jalan Nasional",
+        "titik_akhir": "II.11",
+        "panjang_km": 1.015,
+        "lebar_m": 4
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.498445,
+            -7.451923
+          ],
+          [
+            109.497376,
+            -7.460674
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 599,
+        "nomor_ruas": "II.12",
+        "nama_ruas": "MANDIRAJA-BANJENGAN",
+        "titik_awal": "JL NAS.",
+        "titik_akhir": "II.11",
+        "panjang_km": 0.7,
+        "lebar_m": 3.5
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.521607,
+            -7.452845
+          ],
+          [
+            109.519883,
+            -7.458238
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 600,
+        "nomor_ruas": "II.18",
+        "nama_ruas": "KERTAYASA-SIMBANG",
+        "titik_awal": "II.11",
+        "titik_akhir": "II.20",
+        "panjang_km": 1.602,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.496589,
+            -7.460575
+          ],
+          [
+            109.488539,
+            -7.467225
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 601,
+        "nomor_ruas": "II.20",
+        "nama_ruas": "CANDIWULAN-SIMBANG",
+        "titik_awal": "II.11",
+        "titik_akhir": "II.19/II.17",
+        "panjang_km": 1.145,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.488112,
+            -7.461525
+          ],
+          [
+            109.488659,
+            -7.470765
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 602,
+        "nomor_ruas": "II.21",
+        "nama_ruas": "PANGGISARI-CANDIWULAN",
+        "titik_awal": "Jalan Nasional",
+        "titik_akhir": "II.11",
+        "panjang_km": 2.465,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.487485,
+            -7.450655
+          ],
+          [
+            109.476313,
+            -7.459245
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 603,
+        "nomor_ruas": "VI.14",
+        "nama_ruas": "JL KAPTEN P. TENDEAN",
+        "titik_awal": "VI.2//VI.12",
+        "titik_akhir": "VI.15",
+        "panjang_km": 0.11,
+        "lebar_m": 7
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.694444,
+            -7.397029
+          ],
+          [
+            109.69438,
+            -7.398135
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 604,
+        "nomor_ruas": "II.34",
+        "nama_ruas": "GUMELEM KULON-DERIK",
+        "titik_awal": "II.33",
+        "titik_akhir": "II.35",
+        "panjang_km": 2.636,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.409336,
+            -7.500062
+          ],
+          [
+            109.431801,
+            -7.495725
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 605,
+        "nomor_ruas": "II.35",
+        "nama_ruas": "KARANGJATI-GLEMPANG",
+        "titik_awal": "JL NAS. KM 16 HM 6-5 BMS",
+        "titik_akhir": "JL.Provinsi Gandulekor-Gombong",
+        "panjang_km": 8.289,
+        "lebar_m": 4
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.483327,
+            -7.494502
+          ],
+          [
+            109.424587,
+            -7.48258
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 606,
+        "nomor_ruas": "II.25",
+        "nama_ruas": "KLAMPOK-PURWAREJA",
+        "titik_awal": "Jalan Nasional",
+        "titik_akhir": "Jalan Nasional",
+        "panjang_km": 2.09,
+        "lebar_m": 3.2
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.439628,
+            -7.460238
+          ],
+          [
+            109.429913,
+            -7.467487
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 607,
+        "nomor_ruas": "II.26",
+        "nama_ruas": "KLAMPOK-BTS KAB.PURBALINGGA",
+        "titik_awal": "Jalan Nasional",
+        "titik_akhir": "SUNGAI SERAYU",
+        "panjang_km": 1.157,
+        "lebar_m": 5
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.429222,
+            -7.47254
+          ],
+          [
+            109.419315,
+            -7.473048
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 608,
+        "nomor_ruas": "II.29",
+        "nama_ruas": "PEKIRINGAN-PWJ KLAMPOK",
+        "titik_awal": "Jalan Prov.",
+        "titik_akhir": "II.26",
+        "panjang_km": 2.155,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.433562,
+            -7.460427
+          ],
+          [
+            109.426946,
+            -7.472619
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 609,
+        "nomor_ruas": "II.33",
+        "nama_ruas": "SUSUKAN-BTS KEBUMEN",
+        "titik_awal": "Jalan Nasional KM 13 HM 8 BMS",
+        "titik_akhir": "Batas Kab.Kebumen-Kab Banyumas",
+        "panjang_km": 5.65,
+        "lebar_m": 4
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.410393,
+            -7.489855
+          ],
+          [
+            109.425542,
+            -7.5365
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 610,
+        "nomor_ruas": "VI.37",
+        "nama_ruas": "JL FLAMBOYAN",
+        "titik_awal": "VI.38",
+        "titik_akhir": "VI.35",
+        "panjang_km": 0.06,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.723993,
+            -7.389427
+          ],
+          [
+            109.723379,
+            -7.389006
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 611,
+        "nomor_ruas": "II.38",
+        "nama_ruas": "BRENGKOK-KEMARANGGON",
+        "titik_awal": "Jalan Nasional",
+        "titik_akhir": "II.36",
+        "panjang_km": 2.6,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.375777,
+            -7.50113
+          ],
+          [
+            109.385203,
+            -7.488037
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 612,
+        "nomor_ruas": "VI.49",
+        "nama_ruas": "RSUD",
+        "titik_awal": null,
+        "titik_akhir": null,
+        "panjang_km": 0.15,
+        "lebar_m": 10
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.692846,
+            -7.39268
+          ],
+          [
+            109.692797,
+            -7.391859
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 613,
+        "nomor_ruas": "II.4",
+        "nama_ruas": "PURWONEGORO-KINCANG",
+        "titik_awal": "JL NAS KM 34 HM 8-9 BMS",
+        "titik_akhir": "III.17/III.17",
+        "panjang_km": 1.982,
+        "lebar_m": 4
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.561405,
+            -7.43458
+          ],
+          [
+            109.556763,
+            -7.418599
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 614,
+        "nomor_ruas": "II.41",
+        "nama_ruas": "SIRKANDI-SALAMERTA",
+        "titik_awal": "II.23",
+        "titik_akhir": "Jalan Desa Sirkandi",
+        "panjang_km": 1.319,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.465201,
+            -7.484713
+          ],
+          [
+            109.464162,
+            -7.493691
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 615,
+        "nomor_ruas": "II.6",
+        "nama_ruas": "PUCUNGBEDUG- MERDEN",
+        "titik_awal": "II.7",
+        "titik_akhir": "II.2/II.3/II.5",
+        "panjang_km": 8.192,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.59653,
+            -7.456279
+          ],
+          [
+            109.541012,
+            -7.466512
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 616,
+        "nomor_ruas": "II.7",
+        "nama_ruas": "GUMIWANG-WANADRI",
+        "titik_awal": "JL NAS. BNA-BMS",
+        "titik_akhir": "I.42",
+        "panjang_km": 0.669,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.592646,
+            -7.417584
+          ],
+          [
+            109.59653,
+            -7.456279
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 617,
+        "nomor_ruas": "II.8",
+        "nama_ruas": "MERDEN-KEDUNGPANE",
+        "titik_awal": "II.3",
+        "titik_akhir": "JL.PROV Gandulekor-Gombong",
+        "panjang_km": 7.889,
+        "lebar_m": 4
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.499798,
+            -7.483528
+          ],
+          [
+            109.500063,
+            -7.483722
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 618,
+        "nomor_ruas": "II.9",
+        "nama_ruas": "SOMAWANGI-KALITENGAH",
+        "titik_awal": "II.8",
+        "titik_akhir": "II.3",
+        "panjang_km": 5.958,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.522995,
+            -7.475997
+          ],
+          [
+            109.545947,
+            -7.500033
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 619,
+        "nomor_ruas": "III.1",
+        "nama_ruas": "GRIPIT-KALIBENING",
+        "titik_awal": "JL Provinsi KM 9 HM 9 BNA",
+        "titik_akhir": "Jalan Provinsi Kalibening-Pekalongan",
+        "panjang_km": 20.186,
+        "lebar_m": 4.5
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.693082,
+            -7.342258
+          ],
+          [
+            109.637342,
+            -7.221215
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 620,
+        "nomor_ruas": "III.15",
+        "nama_ruas": "WANADADI-PADEPOKAN",
+        "titik_awal": "III.17",
+        "titik_akhir": "Padepokan tapak suci",
+        "panjang_km": 0.422,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.626509,
+            -7.368375
+          ],
+          [
+            109.626462,
+            -7.372043
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 621,
+        "nomor_ruas": "III.16",
+        "nama_ruas": "WANADADI-PUNGGELAN",
+        "titik_awal": "III.15/III.17",
+        "titik_akhir": "TUGU BATAS KABUPATEN PURBALINGGA",
+        "panjang_km": 14.984,
+        "lebar_m": 0
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.626509,
+            -7.368375
+          ],
+          [
+            109.53119,
+            -7.35853
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 622,
+        "nomor_ruas": "III.17",
+        "nama_ruas": "BANJARMANGU-RAKIT",
+        "titik_awal": "JL PROP KM 5 HM 5 BNA",
+        "titik_akhir": "TUGU BTS KAB. PURBALINGGA",
+        "panjang_km": 25.207,
+        "lebar_m": 4
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.688009,
+            -7.360566
+          ],
+          [
+            109.507975,
+            -7.44176
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 623,
+        "nomor_ruas": "III.11",
+        "nama_ruas": "TAPEN-SAWANGAN",
+        "titik_awal": "III.17",
+        "titik_akhir": "III.34",
+        "panjang_km": 1.683,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.595061,
+            -7.390637
+          ],
+          [
+            109.593059,
+            -7.378361
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 624,
+        "nomor_ruas": "VI.38",
+        "nama_ruas": "JL MELATI",
+        "titik_awal": "VI.38",
+        "titik_akhir": "VI.33/VI.34",
+        "panjang_km": 0.1,
+        "lebar_m": 4
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.724132,
+            -7.390562
+          ],
+          [
+            109.723993,
+            -7.389427
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 625,
+        "nomor_ruas": "III.19",
+        "nama_ruas": "MANDIRAJA-RAKIT",
+        "titik_awal": "JL Nasional. KM 27 HM 5-4 BMS",
+        "titik_akhir": "III.17",
+        "panjang_km": 1.639,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.522707,
+            -7.452827
+          ],
+          [
+            109.524203,
+            -7.439292
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 626,
+        "nomor_ruas": "III.18",
+        "nama_ruas": "BADAMITA-TIMBANG",
+        "titik_awal": "III.17",
+        "titik_akhir": "JEMBATAN KALI KACANGAN",
+        "panjang_km": 2.571,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.569566,
+            -7.39544
+          ],
+          [
+            109.549403,
+            -7.400625
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 627,
+        "nomor_ruas": "IV.16",
+        "nama_ruas": "PLORENGAN-SIMEGO",
+        "titik_awal": "JL PROP KM 45 BNA",
+        "titik_akhir": "TG BTS KAB PEKALONGAN",
+        "panjang_km": 5.019,
+        "lebar_m": 4
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.666032,
+            -7.213695
+          ],
+          [
+            109.683303,
+            -7.183092
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 628,
+        "nomor_ruas": "IV.17",
+        "nama_ruas": "KASINOM-BAKULAN",
+        "titik_awal": "JL PROP KM 42 BNA",
+        "titik_akhir": "HUTAN PINUS DK BAKULAN",
+        "panjang_km": 3.995,
+        "lebar_m": 4
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.677187,
+            -7.213898
+          ],
+          [
+            109.684265,
+            -7.23535
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 629,
+        "nomor_ruas": "VI.39",
+        "nama_ruas": "JL SERUNI",
+        "titik_awal": "VI.32",
+        "titik_akhir": "VI.37/VI.38",
+        "panjang_km": 0.1,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.725321,
+            -7.389528
+          ],
+          [
+            109.723993,
+            -7.389427
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 630,
+        "nomor_ruas": "III.21",
+        "nama_ruas": "RAKIT-BANDINGAN",
+        "titik_awal": "PASAR RAKIT/III.17",
+        "titik_akhir": "BTS KAB. PURBALINGGA",
+        "panjang_km": 2.728,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.529455,
+            -7.435268
+          ],
+          [
+            109.532235,
+            -7.413343
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 631,
+        "nomor_ruas": "III.23",
+        "nama_ruas": "PINGIT-GLEMPANG",
+        "titik_awal": "III.20",
+        "titik_akhir": "Batas Kab. Purbalingga",
+        "panjang_km": 1.154,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.515432,
+            -7.424583
+          ],
+          [
+            109.505872,
+            -7.423338
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 632,
+        "nomor_ruas": "III.25",
+        "nama_ruas": "BULU-PINGIT",
+        "titik_awal": "III.21",
+        "titik_akhir": "III.20",
+        "panjang_km": 1.677,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.528052,
+            -7.426062
+          ],
+          [
+            109.515965,
+            -7.42123
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 633,
+        "nomor_ruas": "III.27",
+        "nama_ruas": "TAPEN-TANJUNGANOM",
+        "titik_awal": "III.17",
+        "titik_akhir": "III.17",
+        "panjang_km": 6.022,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.593172,
+            -7.391855
+          ],
+          [
+            109.564458,
+            -7.413199
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 634,
+        "nomor_ruas": "III.28",
+        "nama_ruas": "PUNGGELAN-JEMBANGAN",
+        "titik_awal": "III.16",
+        "titik_akhir": "K. GINTUNG",
+        "panjang_km": 9.769,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.581333,
+            -7.353418
+          ],
+          [
+            109.566947,
+            -7.305526
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 635,
+        "nomor_ruas": "III.29",
+        "nama_ruas": "PUNGGELAN-SIKOKOL",
+        "titik_awal": "III.16",
+        "titik_akhir": "IV.23",
+        "panjang_km": 5.977,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.60012,
+            -7.350003
+          ],
+          [
+            109.6483,
+            -7.310355
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 636,
+        "nomor_ruas": "III.3",
+        "nama_ruas": "KESENET-SIGEBLOG",
+        "titik_awal": "JL PROP KM 5 HM 9 BNA",
+        "titik_akhir": "III.1",
+        "panjang_km": 5.603,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.690084,
+            -7.355272
+          ],
+          [
+            109.667862,
+            -7.331323
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 637,
+        "nomor_ruas": "III.30",
+        "nama_ruas": "BONDOLHARJO-TANJUNGTIRTA",
+        "titik_awal": "III.16",
+        "titik_akhir": "III.31/III.32",
+        "panjang_km": 6.172,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.63507,
+            -7.327858
+          ],
+          [
+            109.625522,
+            -7.36265
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 638,
+        "nomor_ruas": "III.32",
+        "nama_ruas": "TANJUNGTIRTA-TLAGAMAYA",
+        "titik_awal": "III.30/III.31",
+        "titik_akhir": "III.5/IV.23",
+        "panjang_km": 4.05,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.63507,
+            -7.327858
+          ],
+          [
+            109.64286,
+            -7.306099
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 639,
+        "nomor_ruas": "III.34",
+        "nama_ruas": "BADAKARYA-TRIBUANA",
+        "titik_awal": "III.16",
+        "titik_akhir": "III.35/III.42",
+        "panjang_km": 6.228,
+        "lebar_m": 3.85
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.606524,
+            -7.366331
+          ],
+          [
+            109.565203,
+            -7.385458
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 640,
+        "nomor_ruas": "VI.16",
+        "nama_ruas": "JL JEND. A. YANI",
+        "titik_awal": "VI.2/VI.26",
+        "titik_akhir": "VI.17",
+        "panjang_km": 0.448,
+        "lebar_m": 10
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.695773,
+            -7.396923
+          ],
+          [
+            109.695919,
+            -7.392776
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 641,
+        "nomor_ruas": "III.4",
+        "nama_ruas": "BANJARMANGU-LINGGAMERTA",
+        "titik_awal": "III.17",
+        "titik_akhir": "III.17",
+        "panjang_km": 7.248,
+        "lebar_m": 4.5
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.685206,
+            -7.36277
+          ],
+          [
+            109.664426,
+            -7.368873
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 642,
+        "nomor_ruas": "V.22",
+        "nama_ruas": "KARANGSARI-SARWODADI",
+        "titik_awal": "IV.11",
+        "titik_akhir": "V.15",
+        "panjang_km": 1.402,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.779551,
+            -7.254195
+          ],
+          [
+            109.77963,
+            -7.244423
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 643,
+        "nomor_ruas": "III.41",
+        "nama_ruas": "DANAKERTA-KLAPA",
+        "titik_awal": "III.16",
+        "titik_akhir": "Bts Kab. Purbalingga",
+        "panjang_km": 6.117,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.544788,
+            -7.353273
+          ],
+          [
+            109.520598,
+            -7.332417
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 644,
+        "nomor_ruas": "VI.17",
+        "nama_ruas": "JL MAY. JEND. SUTOYO",
+        "titik_awal": "VI.8/VI.7",
+        "titik_akhir": "VI.24",
+        "panjang_km": 0.887,
+        "lebar_m": 10
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.692528,
+            -7.392669
+          ],
+          [
+            109.700523,
+            -7.392993
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 645,
+        "nomor_ruas": "VI.18",
+        "nama_ruas": "JL SUNAN GRIPIT",
+        "titik_awal": "VI.17",
+        "titik_akhir": "JEMB. K. SERAYU",
+        "panjang_km": 0.474,
+        "lebar_m": 4
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.695084,
+            -7.392742
+          ],
+          [
+            109.692587,
+            -7.388572
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 646,
+        "nomor_ruas": "III.43",
+        "nama_ruas": "LINGKAR PASAR MANIS",
+        "titik_awal": "III.16",
+        "titik_akhir": "III.28",
+        "panjang_km": 0.416,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.581109,
+            -7.351205
+          ],
+          [
+            109.584614,
+            -7.351736
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 647,
+        "nomor_ruas": "III.44",
+        "nama_ruas": "PURWASANA-JEMBANGAN",
+        "titik_awal": "III.29",
+        "titik_akhir": "III.28",
+        "panjang_km": 4.206,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.606901,
+            -7.331444
+          ],
+          [
+            109.586609,
+            -7.310984
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 648,
+        "nomor_ruas": "III.45",
+        "nama_ruas": "TANJUNGTIRTA-SIPOH",
+        "titik_awal": "III.30",
+        "titik_akhir": "III.29",
+        "panjang_km": 3.92,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.631126,
+            -7.341825
+          ],
+          [
+            109.60348,
+            -7.343369
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 649,
+        "nomor_ruas": "III.5",
+        "nama_ruas": "BENDAWULUH-MLAYA",
+        "titik_awal": "III.1",
+        "titik_akhir": "III.32/IV.23",
+        "panjang_km": 4.503,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.676888,
+            -7.315656
+          ],
+          [
+            109.6483,
+            -7.310355
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 650,
+        "nomor_ruas": "III.6",
+        "nama_ruas": "KESENET-KENDAGA",
+        "titik_awal": "Jalan Prov.",
+        "titik_akhir": "Jalan Prov.",
+        "panjang_km": 3.592,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.691122,
+            -7.35511
+          ],
+          [
+            109.703147,
+            -7.336508
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 651,
+        "nomor_ruas": "III.8",
+        "nama_ruas": "BEJI-SLATRI",
+        "titik_awal": "III.1",
+        "titik_akhir": "JL PROP KM 21 BNA",
+        "panjang_km": 5.485,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.67413,
+            -7.302995
+          ],
+          [
+            109.708788,
+            -7.284018
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 652,
+        "nomor_ruas": "III.9",
+        "nama_ruas": "WANAKARSA-SIPEDANG",
+        "titik_awal": "III.17",
+        "titik_akhir": "III.2",
+        "panjang_km": 5.715,
+        "lebar_m": 4
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.634604,
+            -7.366096
+          ],
+          [
+            109.656923,
+            -7.330753
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 653,
+        "nomor_ruas": "IV.1",
+        "nama_ruas": "KARANGKOBAR-PAWEDEN",
+        "titik_awal": "IV.6",
+        "titik_akhir": "JL PROIP KM 16 HM 1 WNY",
+        "panjang_km": 8.111,
+        "lebar_m": 4
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.738813,
+            -7.272245
+          ],
+          [
+            109.716705,
+            -7.301397
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 654,
+        "nomor_ruas": "IV.10",
+        "nama_ruas": "KARANAGKOBAR-KARANGGONDANG",
+        "titik_awal": "JL PROP KM 24,6 BNA",
+        "titik_akhir": "IV.3/IV.12/IV.19",
+        "panjang_km": 6.215,
+        "lebar_m": 4
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.72656,
+            -7.27158
+          ],
+          [
+            109.690915,
+            -7.256447
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 655,
+        "nomor_ruas": "IV.11",
+        "nama_ruas": "KARANGKOBAR-BATUR",
+        "titik_awal": "JL PROP KM 4 HM 1-2 WNY",
+        "titik_akhir": "JL PROP KM 43 HM 2 BNA",
+        "panjang_km": 15.138,
+        "lebar_m": 4.5
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.740496,
+            -7.270706
+          ],
+          [
+            109.828313,
+            -7.207197
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 656,
+        "nomor_ruas": "IV.12",
+        "nama_ruas": "KARANGGONDANG-SEMBAWA",
+        "titik_awal": "IV.3/IV.10/IV.19",
+        "titik_akhir": "III.1",
+        "panjang_km": 5.043,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.694075,
+            -7.265684
+          ],
+          [
+            109.663249,
+            -7.273737
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 657,
+        "nomor_ruas": "IV.13",
+        "nama_ruas": "MARGASARI-GARDU",
+        "titik_awal": "IV.19",
+        "titik_akhir": "III.1",
+        "panjang_km": 5.013,
+        "lebar_m": 4
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.659051,
+            -7.247857
+          ],
+          [
+            109.691017,
+            -7.256314
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 658,
+        "nomor_ruas": "IV.14",
+        "nama_ruas": "KALIBENING-GETAS",
+        "titik_awal": "III.1",
+        "titik_akhir": "IV.23/IV.24",
+        "panjang_km": 7.141,
+        "lebar_m": 4
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.63761,
+            -7.224007
+          ],
+          [
+            109.601704,
+            -7.250396
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 659,
+        "nomor_ruas": "IV.19",
+        "nama_ruas": "CAWAKAN-KARANGGONDANG",
+        "titik_awal": "JALAN PROV.KM 42",
+        "titik_akhir": "IV.3/IV.10/IV.12",
+        "panjang_km": 4.261,
+        "lebar_m": 4
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.703868,
+            -7.228442
+          ],
+          [
+            109.691022,
+            -7.256267
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 660,
+        "nomor_ruas": "IV.20",
+        "nama_ruas": "KALISAT-BINANGUN",
+        "titik_awal": "IV.19",
+        "titik_akhir": "IV.9",
+        "panjang_km": 3.835,
+        "lebar_m": 4
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.703321,
+            -7.240832
+          ],
+          [
+            109.716399,
+            -7.258253
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 661,
+        "nomor_ruas": "VI.19",
+        "nama_ruas": "JL KI JAGAPATI",
+        "titik_awal": "VI.18/Jalan Provinsi",
+        "titik_akhir": "VI.17/VI.24",
+        "panjang_km": 0.853,
+        "lebar_m": 8
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.695049,
+            -7.391188
+          ],
+          [
+            109.700523,
+            -7.392993
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 662,
+        "nomor_ruas": "VI.2",
+        "nama_ruas": "JL PEMUDA",
+        "titik_awal": "VI.1/VI.3",
+        "titik_akhir": "VI.24/VI.3",
+        "panjang_km": 0.895,
+        "lebar_m": 2.5
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.692912,
+            -7.397087
+          ],
+          [
+            109.700926,
+            -7.396409
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 663,
+        "nomor_ruas": "IV.23",
+        "nama_ruas": "GETAS-MLAYA",
+        "titik_awal": "IV.14 / IV.24",
+        "titik_akhir": "III.5/III.32",
+        "panjang_km": 11.487,
+        "lebar_m": 4
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.601704,
+            -7.250396
+          ],
+          [
+            109.64286,
+            -7.306099
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 664,
+        "nomor_ruas": "IV.24",
+        "nama_ruas": "GETAS-BTS KAB PEKALONGAN",
+        "titik_awal": "IV.14/IV23",
+        "titik_akhir": "BTS KAB PEKALONGAN",
+        "panjang_km": 5.51,
+        "lebar_m": 4
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.602464,
+            -7.247231
+          ],
+          [
+            109.558566,
+            -7.234989
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 665,
+        "nomor_ruas": "IV.25",
+        "nama_ruas": "PRINGAMBA-LENGSAR",
+        "titik_awal": "IV.14",
+        "titik_akhir": "BTS KAB PEKALONGAN",
+        "panjang_km": 7.143,
+        "lebar_m": 4
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.619202,
+            -7.238172
+          ],
+          [
+            109.575568,
+            -7.222323
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 666,
+        "nomor_ruas": "IV.27",
+        "nama_ruas": "PANDANARUM-SINDUAJI",
+        "titik_awal": "IV.23",
+        "titik_akhir": "Batas Kabupaten Purbalingga",
+        "panjang_km": 5.904,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.598286,
+            -7.270305
+          ],
+          [
+            109.584165,
+            -7.292083
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 667,
+        "nomor_ruas": "IV.28",
+        "nama_ruas": "LAWEN-PINGIT LOR",
+        "titik_awal": "IV.24",
+        "titik_akhir": "Batas Kabupaten Pekalongan",
+        "panjang_km": 5.1,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.582345,
+            -7.242078
+          ],
+          [
+            109.548324,
+            -7.23533
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 668,
+        "nomor_ruas": "IV.29",
+        "nama_ruas": "LAWEN-PASEGERAN",
+        "titik_awal": "IV.24",
+        "titik_akhir": "IV.27",
+        "panjang_km": 6.832,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.584596,
+            -7.242574
+          ],
+          [
+            109.593299,
+            -7.275922
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 669,
+        "nomor_ruas": "VI.44",
+        "nama_ruas": "JL MENUR",
+        "titik_awal": "VI.32",
+        "titik_akhir": "VI.43",
+        "panjang_km": 0.12,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.72533,
+            -7.391615
+          ],
+          [
+            109.724282,
+            -7.391508
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 670,
+        "nomor_ruas": "IV.30",
+        "nama_ruas": "KARANGKOBAR-AMBAL",
+        "titik_awal": "Jalan Provinsi",
+        "titik_akhir": "IV.10",
+        "panjang_km": 1.693,
+        "lebar_m": 4
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.72513,
+            -7.270036
+          ],
+          [
+            109.740496,
+            -7.270706
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 671,
+        "nomor_ruas": "IV.6",
+        "nama_ruas": "KARANGKOBAR-GUMELAR",
+        "titik_awal": "Jalan provinsi",
+        "titik_akhir": "Desa Gumelar",
+        "panjang_km": 2.807,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.738838,
+            -7.273724
+          ],
+          [
+            109.735718,
+            -7.29334
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 672,
+        "nomor_ruas": "VI.73",
+        "nama_ruas": "BRI",
+        "titik_awal": "VI.2/Jalan nasioal",
+        "titik_akhir": "VI.15",
+        "panjang_km": 0.05,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.695102,
+            -7.396978
+          ],
+          [
+            109.695119,
+            -7.398012
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 673,
+        "nomor_ruas": "IV.9",
+        "nama_ruas": "KUNINGAN-AMBAL",
+        "titik_awal": "JL PROP KM 2 WNY",
+        "titik_akhir": "IV.10",
+        "panjang_km": 4.527,
+        "lebar_m": 4
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.721158,
+            -7.235805
+          ],
+          [
+            109.713654,
+            -7.265862
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 674,
+        "nomor_ruas": "V.31",
+        "nama_ruas": "KARANGTENGAH-PESURENAN",
+        "titik_awal": "JL PROP KM 7 BNA",
+        "titik_akhir": "JL PROP KM 5 BTR",
+        "panjang_km": 7.675,
+        "lebar_m": 4.5
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.892692,
+            -7.20166
+          ],
+          [
+            109.852543,
+            -7.216395
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 675,
+        "nomor_ruas": "V.32",
+        "nama_ruas": "PENUSUPAN-BATUR",
+        "titik_awal": "IV.11",
+        "titik_akhir": "Jalan Provinsi",
+        "panjang_km": 8.37,
+        "lebar_m": 4.5
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.794209,
+            -7.249005
+          ],
+          [
+            109.825587,
+            -7.206378
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 676,
+        "nomor_ruas": "V.10",
+        "nama_ruas": "KUBANG-SUSUKAN",
+        "titik_awal": "IV.11",
+        "titik_akhir": "V.4",
+        "panjang_km": 1.032,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.751802,
+            -7.270561
+          ],
+          [
+            109.754313,
+            -7.263526
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 677,
+        "nomor_ruas": "V.12",
+        "nama_ruas": "WANARAJA-KEBODUDU",
+        "titik_awal": "Jalan Provinsi",
+        "titik_akhir": "Dukuh Kebodudu",
+        "panjang_km": 0.637,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.756622,
+            -7.21805
+          ],
+          [
+            109.752702,
+            -7.210996
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 678,
+        "nomor_ruas": "VI.20",
+        "nama_ruas": "JL KH BUSYAERI",
+        "titik_awal": "VI.16",
+        "titik_akhir": "VI.23",
+        "panjang_km": 0.343,
+        "lebar_m": 5
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.699032,
+            -7.39433
+          ],
+          [
+            109.695872,
+            -7.394146
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 679,
+        "nomor_ruas": "V.18",
+        "nama_ruas": "SARWODADI-GROGOL",
+        "titik_awal": "V.15",
+        "titik_akhir": "Jalan Provinsi",
+        "panjang_km": 6.237,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.772707,
+            -7.244306
+          ],
+          [
+            109.790287,
+            -7.208948
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 680,
+        "nomor_ruas": "V.19",
+        "nama_ruas": "PENUSUPAN-KAREKAN",
+        "titik_awal": "IV.11",
+        "titik_akhir": "V.25/V.20",
+        "panjang_km": 5.764,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.794328,
+            -7.248934
+          ],
+          [
+            109.783636,
+            -7.278597
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 681,
+        "nomor_ruas": "V.2",
+        "nama_ruas": "JATILAWANG-KALIDERES",
+        "titik_awal": "JL PROP KM 5 HM 6 BTR",
+        "titik_akhir": "TG BTS KAB PEKALONGAN",
+        "panjang_km": 4.578,
+        "lebar_m": 4
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.765565,
+            -7.21357
+          ],
+          [
+            109.744622,
+            -7.189802
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 682,
+        "nomor_ruas": "VI.21",
+        "nama_ruas": "JL PRAJA",
+        "titik_awal": "VI.2/Jalan nasioal",
+        "titik_akhir": "VI.9",
+        "panjang_km": 0.161,
+        "lebar_m": 8.25
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.696641,
+            -7.396865
+          ],
+          [
+            109.696683,
+            -7.395362
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 683,
+        "nomor_ruas": "V.24",
+        "nama_ruas": "PAGENTAN-PEJAWARAN",
+        "titik_awal": "I.8",
+        "titik_akhir": "IV.11",
+        "panjang_km": 9.27,
+        "lebar_m": 4.5
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.810029,
+            -7.301291
+          ],
+          [
+            109.8017,
+            -7.246222
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 684,
+        "nomor_ruas": "V.25",
+        "nama_ruas": "ARIBAYA-KAYUARES",
+        "titik_awal": "I.8",
+        "titik_akhir": "V.29",
+        "panjang_km": 4.431,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.76638,
+            -7.341804
+          ],
+          [
+            109.786814,
+            -7.319504
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 685,
+        "nomor_ruas": "V.26",
+        "nama_ruas": "CLAPAR-NAGASARI",
+        "titik_awal": "I.8",
+        "titik_akhir": "Dukuh Nagasari",
+        "panjang_km": 6.238,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.764612,
+            -7.347662
+          ],
+          [
+            109.743655,
+            -7.329432
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 686,
+        "nomor_ruas": "V.29",
+        "nama_ruas": "BULUKUNING-DAWUHAN",
+        "titik_awal": "I.8",
+        "titik_akhir": "IV.11",
+        "panjang_km": 14.316,
+        "lebar_m": 3.5
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.798813,
+            -7.307804
+          ],
+          [
+            109.755826,
+            -7.270301
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 687,
+        "nomor_ruas": "VI.22",
+        "nama_ruas": "JL HOS COKROAMINOTO",
+        "titik_awal": "VI.9",
+        "titik_akhir": "VI.15",
+        "panjang_km": 0.237,
+        "lebar_m": 8.8
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.698149,
+            -7.395385
+          ],
+          [
+            109.698274,
+            -7.397615
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 688,
+        "nomor_ruas": "V.34",
+        "nama_ruas": "SUMBER-SIDENGKOK",
+        "titik_awal": "Jalan ProvIinsi",
+        "titik_akhir": "V.30",
+        "panjang_km": 0.6,
+        "lebar_m": 4
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.835216,
+            -7.211153
+          ],
+          [
+            109.833498,
+            -7.216048
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 689,
+        "nomor_ruas": "V.38",
+        "nama_ruas": "TLAGABANG-PESAYANGAN",
+        "titik_awal": "V.36",
+        "titik_akhir": "Dukuh Pesayangan",
+        "panjang_km": 1.502,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.81496,
+            -7.192699
+          ],
+          [
+            109.804133,
+            -7.19078
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 690,
+        "nomor_ruas": "VI.23",
+        "nama_ruas": "JL MAY.JAND.MT.HARYONO",
+        "titik_awal": "VI.2",
+        "titik_akhir": "VI.17/VI.52",
+        "panjang_km": 0.39,
+        "lebar_m": 8.6
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.698793,
+            -7.396661
+          ],
+          [
+            109.699099,
+            -7.392944
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 691,
+        "nomor_ruas": "VI.24",
+        "nama_ruas": "JL VETERAN",
+        "titik_awal": "VI.15/VI.28/VI.27",
+        "titik_akhir": "VI.17/VI.19",
+        "panjang_km": 0.431,
+        "lebar_m": 13.8
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.700523,
+            -7.392993
+          ],
+          [
+            109.701003,
+            -7.397225
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 692,
+        "nomor_ruas": "VI.25",
+        "nama_ruas": "JL H. AGUS SALIM",
+        "titik_awal": "VI.15",
+        "titik_akhir": "VI.15",
+        "panjang_km": 0.411,
+        "lebar_m": 4
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.694738,
+            -7.398071
+          ],
+          [
+            109.693033,
+            -7.398393
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 693,
+        "nomor_ruas": "VI.26",
+        "nama_ruas": "JL JEND. GATOT SUBROTO",
+        "titik_awal": "VI.2/VI.16",
+        "titik_akhir": "I.14/VI.15",
+        "panjang_km": 0.094,
+        "lebar_m": 10
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.695773,
+            -7.396923
+          ],
+          [
+            109.695796,
+            -7.397913
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 694,
+        "nomor_ruas": "V.8",
+        "nama_ruas": "DALAM KOTA BATUR",
+        "titik_awal": "Jalan Provinsi",
+        "titik_akhir": "Jalan Provinsi",
+        "panjang_km": 0.671,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.829798,
+            -7.20692
+          ],
+          [
+            109.824738,
+            -7.205503
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 695,
+        "nomor_ruas": "VI.1",
+        "nama_ruas": "JL LET.JEND. SUPRAPTO",
+        "titik_awal": "I.30/I.32",
+        "titik_akhir": "VI.3/VI.2",
+        "panjang_km": 2.968,
+        "lebar_m": 2.36
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.667535,
+            -7.398558
+          ],
+          [
+            109.693033,
+            -7.398393
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 696,
+        "nomor_ruas": "VI.10",
+        "nama_ruas": "JL YOS SUDARSO",
+        "titik_awal": "VI.8",
+        "titik_akhir": "VI.11",
+        "panjang_km": 0.197,
+        "lebar_m": 5.5
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.692619,
+            -7.393686
+          ],
+          [
+            109.694453,
+            -7.393808
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 697,
+        "nomor_ruas": "VI.11",
+        "nama_ruas": "JL PARTO ADIWILJOYO",
+        "titik_awal": "VI.9/VI.12",
+        "titik_akhir": "VI.17",
+        "panjang_km": 0.276,
+        "lebar_m": 0
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.694488,
+            -7.395285
+          ],
+          [
+            109.694454,
+            -7.392731
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 698,
+        "nomor_ruas": "VI.3",
+        "nama_ruas": "JL LET.JEND. S. PARMAN",
+        "titik_awal": "VI.2/VI.24",
+        "titik_akhir": "VI.4/VI.30",
+        "panjang_km": 1.625,
+        "lebar_m": 3.5
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.700926,
+            -7.396409
+          ],
+          [
+            109.714866,
+            -7.392057
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 699,
+        "nomor_ruas": "VI.31",
+        "nama_ruas": "JL STADION",
+        "titik_awal": "VI.3/Jalan Nasional",
+        "titik_akhir": "VI.30",
+        "panjang_km": 0.303,
+        "lebar_m": 15.2
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.705669,
+            -7.394488
+          ],
+          [
+            109.704378,
+            -7.39197
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 700,
+        "nomor_ruas": "VI.32",
+        "nama_ruas": "JL WIJAYA KUSUMA",
+        "titik_awal": "VI.4/Jalan Nasional",
+        "titik_akhir": "VI.33",
+        "panjang_km": 0.25,
+        "lebar_m": 6
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.725331,
+            -7.392007
+          ],
+          [
+            109.725315,
+            -7.389235
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 701,
+        "nomor_ruas": "VI.33",
+        "nama_ruas": "JL TERATAI",
+        "titik_awal": "VI.32",
+        "titik_akhir": "VI.34",
+        "panjang_km": 0.1,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.724175,
+            -7.389147
+          ],
+          [
+            109.725315,
+            -7.389235
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 702,
+        "nomor_ruas": "VI.34",
+        "nama_ruas": "JL TANJUNG",
+        "titik_awal": "VI.33",
+        "titik_akhir": "VI.35",
+        "panjang_km": 0.1,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.723446,
+            -7.388687
+          ],
+          [
+            109.724175,
+            -7.389147
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 703,
+        "nomor_ruas": "VI.35",
+        "nama_ruas": "JL ANGGREK",
+        "titik_awal": "VI.34",
+        "titik_akhir": "VI.36",
+        "panjang_km": 0.1,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.723446,
+            -7.388687
+          ],
+          [
+            109.723284,
+            -7.389463
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 704,
+        "nomor_ruas": "VI.36",
+        "nama_ruas": "JL NUSA INDAH",
+        "titik_awal": "VI.38",
+        "titik_akhir": "Jalan Kelurahan",
+        "panjang_km": 0.1,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.724006,
+            -7.389599
+          ],
+          [
+            109.722973,
+            -7.389457
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 705,
+        "nomor_ruas": "VI.40",
+        "nama_ruas": "JL DAHLIA",
+        "titik_awal": "VI.32",
+        "titik_akhir": "VI.38",
+        "panjang_km": 0.1,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.725329,
+            -7.389918
+          ],
+          [
+            109.72404,
+            -7.389856
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 706,
+        "nomor_ruas": "VI.41",
+        "nama_ruas": "JL ALAMANDA",
+        "titik_awal": "VI.32",
+        "titik_akhir": "VI.38",
+        "panjang_km": 0.1,
+        "lebar_m": 4
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.7241,
+            -7.390227
+          ],
+          [
+            109.72532,
+            -7.390388
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 707,
+        "nomor_ruas": "VI.42",
+        "nama_ruas": "JL CEMPAKA",
+        "titik_awal": "VI.32",
+        "titik_akhir": "VI.38",
+        "panjang_km": 0.1,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.725315,
+            -7.390793
+          ],
+          [
+            109.724132,
+            -7.390562
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 708,
+        "nomor_ruas": "VI.43",
+        "nama_ruas": "JL MAWAR",
+        "titik_awal": "VI.42",
+        "titik_akhir": "VI.44",
+        "panjang_km": 0.075,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.724282,
+            -7.391508
+          ],
+          [
+            109.724405,
+            -7.390664
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 709,
+        "nomor_ruas": "VI.46",
+        "nama_ruas": "JL SAKURA",
+        "titik_awal": "VI.32",
+        "titik_akhir": "TEGALAN",
+        "panjang_km": 0.125,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.725325,
+            -7.390278
+          ],
+          [
+            109.726683,
+            -7.390543
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 710,
+        "nomor_ruas": "VI.48",
+        "nama_ruas": "JL RSS SEMARANG",
+        "titik_awal": "VI.27",
+        "titik_akhir": "VI.27",
+        "panjang_km": 0.85,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.700793,
+            -7.402398
+          ],
+          [
+            109.701443,
+            -7.404185
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 711,
+        "nomor_ruas": "I.31",
+        "nama_ruas": "JAGAPATI-JAGABELA",
+        "titik_awal": "VI.3/VI.3",
+        "titik_akhir": "VI.3/VI.3",
+        "panjang_km": 0.6,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.700151,
+            -7.390545
+          ],
+          [
+            109.705945,
+            -7.389028
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 712,
+        "nomor_ruas": "VI.51",
+        "nama_ruas": "JL UNTA",
+        "titik_awal": "VI.48",
+        "titik_akhir": "VI.63",
+        "panjang_km": 0.12,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.701055,
+            -7.403009
+          ],
+          [
+            109.7015,
+            -7.40413
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 713,
+        "nomor_ruas": "VI.52",
+        "nama_ruas": "JL.KI JAGAPATI 2",
+        "titik_awal": "VI.17/VI.23",
+        "titik_akhir": "VI.19",
+        "panjang_km": 0.19,
+        "lebar_m": 3.5
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.699099,
+            -7.392944
+          ],
+          [
+            109.698901,
+            -7.39086
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 714,
+        "nomor_ruas": "VI.54",
+        "nama_ruas": "JL COKROAMINOTO II",
+        "titik_awal": "VI.15/VI.22",
+        "titik_akhir": "VI.27",
+        "panjang_km": 0.35,
+        "lebar_m": 4
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.698342,
+            -7.397609
+          ],
+          [
+            109.700985,
+            -7.39798
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 715,
+        "nomor_ruas": "VI.55",
+        "nama_ruas": "JL KRENAN",
+        "titik_awal": "VI.3/Jalan Nasional",
+        "titik_akhir": "K. IRIGASI",
+        "panjang_km": 0.6,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.704296,
+            -7.395104
+          ],
+          [
+            109.708353,
+            -7.396432
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 716,
+        "nomor_ruas": "VI.56",
+        "nama_ruas": "JL MANYAR",
+        "titik_awal": "VI.30",
+        "titik_akhir": "VI.57",
+        "panjang_km": 0.06,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.712668,
+            -7.391587
+          ],
+          [
+            109.713851,
+            -7.391339
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 717,
+        "nomor_ruas": "VI.58",
+        "nama_ruas": "JL GLATIK",
+        "titik_awal": "VI.30",
+        "titik_akhir": "VI.57",
+        "panjang_km": 0.1,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.706607,
+            -7.391042
+          ],
+          [
+            109.706611,
+            -7.392214
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 718,
+        "nomor_ruas": "VI.59",
+        "nama_ruas": "JL NURI",
+        "titik_awal": "VI.3/Jalan Nasional",
+        "titik_akhir": "VI.57",
+        "panjang_km": 0.12,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.707905,
+            -7.393736
+          ],
+          [
+            109.707964,
+            -7.392198
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 719,
+        "nomor_ruas": "VI.6",
+        "nama_ruas": "JL SALAMANIK",
+        "titik_awal": "VI.8/VI.9",
+        "titik_akhir": "VI.5",
+        "panjang_km": 0.281,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.692738,
+            -7.39522
+          ],
+          [
+            109.690184,
+            -7.395258
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 720,
+        "nomor_ruas": "VI.60",
+        "nama_ruas": "JL KEPODANG",
+        "titik_awal": "VI.30",
+        "titik_akhir": "VI.57",
+        "panjang_km": 0.1,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.70826,
+            -7.390774
+          ],
+          [
+            109.7084,
+            -7.39219
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 721,
+        "nomor_ruas": "VI.61",
+        "nama_ruas": "JL KUTILANG",
+        "titik_awal": "VI.30",
+        "titik_akhir": "VI.57",
+        "panjang_km": 0.1,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.710159,
+            -7.390584
+          ],
+          [
+            109.710434,
+            -7.391915
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 722,
+        "nomor_ruas": "VI.62",
+        "nama_ruas": "JL KENARI",
+        "titik_awal": "VI.48",
+        "titik_akhir": "VI.63",
+        "panjang_km": 0.075,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.701711,
+            -7.403927
+          ],
+          [
+            109.701297,
+            -7.402925
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 723,
+        "nomor_ruas": "VI.63",
+        "nama_ruas": "JL LAWET",
+        "titik_awal": "VI.27",
+        "titik_akhir": "VI..48",
+        "panjang_km": 0.15,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.701665,
+            -7.402796
+          ],
+          [
+            109.700952,
+            -7.403044
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 724,
+        "nomor_ruas": "VI.65",
+        "nama_ruas": "JL SRITI",
+        "titik_awal": "VI.3/Jalan Nasional",
+        "titik_akhir": "VI.57",
+        "panjang_km": 0.1,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.711013,
+            -7.392801
+          ],
+          [
+            109.710866,
+            -7.391837
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 725,
+        "nomor_ruas": "VI.67",
+        "nama_ruas": "JL GAGAK",
+        "titik_awal": "VI.30",
+        "titik_akhir": "I.29",
+        "panjang_km": 0.15,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.707169,
+            -7.390924
+          ],
+          [
+            109.706545,
+            -7.38894
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 726,
+        "nomor_ruas": "VI.68",
+        "nama_ruas": "JL MERPATI",
+        "titik_awal": "VI.48",
+        "titik_akhir": "Kebun",
+        "panjang_km": 0.375,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.701175,
+            -7.402263
+          ],
+          [
+            109.701028,
+            -7.401685
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 727,
+        "nomor_ruas": "VI.69",
+        "nama_ruas": "JL CENDRAWASIH",
+        "titik_awal": "VI.30",
+        "titik_akhir": "VI.59",
+        "panjang_km": 0.375,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.706129,
+            -7.391103
+          ],
+          [
+            109.707978,
+            -7.393296
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 728,
+        "nomor_ruas": "VI.71",
+        "nama_ruas": "JL SOKANANDI II",
+        "titik_awal": "VI.4/Jalan Nasional",
+        "titik_akhir": "VI.70",
+        "panjang_km": 0.125,
+        "lebar_m": 3.5
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.71783,
+            -7.3919
+          ],
+          [
+            109.71675,
+            -7.391768
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 729,
+        "nomor_ruas": "VI.72",
+        "nama_ruas": "JL KALIBENDA II",
+        "titik_awal": "VI.4/Jalan Nasional",
+        "titik_akhir": "Kebun",
+        "panjang_km": 0.8,
+        "lebar_m": 3.5
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.72943,
+            -7.39225
+          ],
+          [
+            109.730607,
+            -7.396237
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 730,
+        "nomor_ruas": "VI.74",
+        "nama_ruas": "JL BAMBANG KOMPOL",
+        "titik_awal": "VI.2/Jalan nasioal",
+        "titik_akhir": "VI.15",
+        "panjang_km": 0.05,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.699843,
+            -7.39738
+          ],
+          [
+            109.699728,
+            -7.396563
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 731,
+        "nomor_ruas": "VI.75",
+        "nama_ruas": "JL AL FATAH",
+        "titik_awal": "VI.3/Jalan nasioal",
+        "titik_akhir": "VI.76",
+        "panjang_km": 1,
+        "lebar_m": 2
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.710512,
+            -7.392949
+          ],
+          [
+            109.711658,
+            -7.394575
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 732,
+        "nomor_ruas": "VI.76",
+        "nama_ruas": "JL RSS KALISEMI",
+        "titik_awal": "VI.75",
+        "titik_akhir": "I.27",
+        "panjang_km": 0.5,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.711658,
+            -7.394575
+          ],
+          [
+            109.714552,
+            -7.394372
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 733,
+        "nomor_ruas": "VI.8",
+        "nama_ruas": "JL JEND. SUDIRMAN",
+        "titik_awal": "VI.1/VI.2",
+        "titik_akhir": "VI.7/VI.17",
+        "panjang_km": 0.48,
+        "lebar_m": 10
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.692912,
+            -7.397087
+          ],
+          [
+            109.692528,
+            -7.392669
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 734,
+        "nomor_ruas": "VI.9",
+        "nama_ruas": "JL DIPAYUDA",
+        "titik_awal": "VI.8/VI.6",
+        "titik_akhir": "VI.24",
+        "panjang_km": 0.886,
+        "lebar_m": 10.83
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.692738,
+            -7.39522
+          ],
+          [
+            109.700836,
+            -7.395475
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 735,
+        "nomor_ruas": "III.7",
+        "nama_ruas": "SIJERUK-PRENDENGAN",
+        "titik_awal": "Jalan Prov.",
+        "titik_akhir": "III.8",
+        "panjang_km": 3.54,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.711166,
+            -7.318294
+          ],
+          [
+            109.69437,
+            -7.301224
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 736,
+        "nomor_ruas": "II.31",
+        "nama_ruas": "GANDULEKOR-KALIWINASUH",
+        "titik_awal": "Jalan ProvInsi Gandulekor-Gombong",
+        "titik_akhir": "II.28",
+        "panjang_km": 2.373,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.475002,
+            -7.455085
+          ],
+          [
+            109.459424,
+            -7.456571
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 737,
+        "nomor_ruas": "IV.7",
+        "nama_ruas": "GUMELAR-BANTAR",
+        "titik_awal": "IV.6",
+        "titik_akhir": "IV.8",
+        "panjang_km": 2.15,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.73691,
+            -7.282192
+          ],
+          [
+            109.743911,
+            -7.278957
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 738,
+        "nomor_ruas": null,
+        "nama_ruas": "PANDANSARI-KARANGTENGAH",
+        "titik_awal": "V.29",
+        "titik_akhir": "V.7",
+        "panjang_km": 3.912,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.765513,
+            -7.302594
+          ],
+          [
+            109.774329,
+            -7.306179
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 739,
+        "nomor_ruas": "V.37",
+        "nama_ruas": "KASIMPAR-PENANGGUNGAN",
+        "titik_awal": "Jalan Provinsi",
+        "titik_akhir": "Desa Penanggungan",
+        "panjang_km": 4.014,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.780588,
+            -7.200473
+          ],
+          [
+            109.7802,
+            -7.211173
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 740,
+        "nomor_ruas": "I.38",
+        "nama_ruas": "PESANGKALAN-SADANG",
+        "titik_awal": "I.33/I.33",
+        "titik_akhir": "TUGU BATAS KAB",
+        "panjang_km": 3.74,
+        "lebar_m": 4
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.716318,
+            -7.459927
+          ],
+          [
+            109.707575,
+            -7.486285
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 741,
+        "nomor_ruas": "II.27",
+        "nama_ruas": "KLAMPOK-KECITRAN",
+        "titik_awal": "II.25",
+        "titik_akhir": "II.24",
+        "panjang_km": 0,
+        "lebar_m": 0
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 742,
+        "nomor_ruas": "VI.50",
+        "nama_ruas": "JL TERTEK",
+        "titik_awal": "VI.30",
+        "titik_akhir": "I.31",
+        "panjang_km": 0,
+        "lebar_m": 0
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 743,
+        "nomor_ruas": "II.16",
+        "nama_ruas": "PURWASABA-PAGAK",
+        "titik_awal": "Jalan ProvInsi Gandulekor-Gombong",
+        "titik_akhir": "II.28",
+        "panjang_km": 0,
+        "lebar_m": 0
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 744,
+        "nomor_ruas": "II.30",
+        "nama_ruas": "PEKUNCEN-PURWAREJA",
+        "titik_awal": "Jalan ProvInsi Gandulekor-Gombong",
+        "titik_akhir": "II.25",
+        "panjang_km": 0,
+        "lebar_m": 0
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 745,
+        "nomor_ruas": "II.13",
+        "nama_ruas": "PANGGISARI-GANDULEKOR",
+        "titik_awal": "JL.NAS",
+        "titik_akhir": "JL.PROV Gandulekor-Gombong",
+        "panjang_km": 0,
+        "lebar_m": 0
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 746,
+        "nomor_ruas": "III.36",
+        "nama_ruas": "NANGKOD-SAMBONG",
+        "titik_awal": "III.40",
+        "titik_akhir": "III.38",
+        "panjang_km": 0,
+        "lebar_m": 0
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 747,
+        "nomor_ruas": "I.12",
+        "nama_ruas": "PETAMBAKAN-KALIURIP",
+        "titik_awal": "JL PROP KM 3 BNA",
+        "titik_akhir": "Masjid Dkh Pakelen",
+        "panjang_km": 9.436,
+        "lebar_m": 4.5
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.692431,
+            -7.375351
+          ],
+          [
+            109.723561,
+            -7.337433
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 748,
+        "nomor_ruas": "VI.66",
+        "nama_ruas": "JL PERKUTUT",
+        "titik_awal": "VI.3/Jalan Nasional",
+        "titik_akhir": "VI.57",
+        "panjang_km": 0,
+        "lebar_m": 0
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 749,
+        "nomor_ruas": "V.16",
+        "nama_ruas": "KALILUNJAR-KARANGSARI",
+        "titik_awal": "IV.11",
+        "titik_akhir": "IV.11",
+        "panjang_km": 0,
+        "lebar_m": 0
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 750,
+        "nomor_ruas": "V.30",
+        "nama_ruas": "GEMBOL-TEGALJERUK",
+        "titik_awal": "Jalan Provinsi",
+        "titik_akhir": "V.27",
+        "panjang_km": 11.442,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.830945,
+            -7.273874
+          ],
+          [
+            109.85966,
+            -7.219925
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 751,
+        "nomor_ruas": "V.40",
+        "nama_ruas": "PEKASIRAN-BTS KAB.BATANG",
+        "titik_awal": "V.31",
+        "titik_akhir": "BTS Kab.Batang",
+        "panjang_km": 0,
+        "lebar_m": 0
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 752,
+        "nomor_ruas": "VI.29",
+        "nama_ruas": "JL PASAR",
+        "titik_awal": "VI.24",
+        "titik_akhir": "VI.30",
+        "panjang_km": 0,
+        "lebar_m": 0
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.70145971647402,
+            -7.3945801269429
+          ],
+          [
+            109.70217471793693,
+            -7.3930962291195
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 753,
+        "nomor_ruas": "VI.53",
+        "nama_ruas": "JL AL MUNAWAROH II",
+        "titik_awal": "VI.5",
+        "titik_akhir": "Kebun",
+        "panjang_km": 0,
+        "lebar_m": 0
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.68687718510894,
+            -7.39633248423031
+          ],
+          [
+            109.68436310556778,
+            -7.39609309393588
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 754,
+        "nomor_ruas": "VI.64",
+        "nama_ruas": "JL KASWARI",
+        "titik_awal": "VI.30",
+        "titik_akhir": "VI.61",
+        "panjang_km": 0,
+        "lebar_m": 0
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.71031471347194,
+            -7.39115797641828
+          ],
+          [
+            109.71353029875335,
+            -7.39041625891612
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 755,
+        "nomor_ruas": "I.14",
+        "nama_ruas": "BANJARNEGARA-ARGASOKA",
+        "titik_awal": "SIMPANG 4 KANTOR KODIM",
+        "titik_akhir": "PEMUKIMAN DESA SIRAWA",
+        "panjang_km": 1.64,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.69583,
+            -7.39791
+          ],
+          [
+            109.696293,
+            -7.410815
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 756,
+        "nomor_ruas": "V.43",
+        "nama_ruas": null,
+        "titik_awal": "IV.11",
+        "titik_akhir": "V.34",
+        "panjang_km": 0,
+        "lebar_m": 0
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 757,
+        "nomor_ruas": "I.1",
+        "nama_ruas": "TUNGGARA-KALIKUTA",
+        "titik_awal": "JL PROP KM 15 HM 5-6 BNA",
+        "titik_akhir": "BATAS DESA",
+        "panjang_km": 4.217,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.82935,
+            -7.422867
+          ],
+          [
+            109.820676,
+            -7.447491
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 758,
+        "nomor_ruas": "II.17",
+        "nama_ruas": "SOMAWANGI-SIMBANG",
+        "titik_awal": "II.10",
+        "titik_akhir": "II.19/II.20",
+        "panjang_km": 3.557,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.518799,
+            -7.466063
+          ],
+          [
+            109.488659,
+            -7.470765
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 759,
+        "nomor_ruas": "I.22",
+        "nama_ruas": "ARGASOKA-TWELAGIRI",
+        "titik_awal": "I.21",
+        "titik_akhir": "I.15/I.15",
+        "panjang_km": 1.95,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.69419,
+            -7.420444
+          ],
+          [
+            109.680887,
+            -7.415429
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 760,
+        "nomor_ruas": "II.19",
+        "nama_ruas": "PURWASABA-KEBANARAN",
+        "titik_awal": "II.11",
+        "titik_akhir": "II.8",
+        "panjang_km": 3.36,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.478042,
+            -7.469803
+          ],
+          [
+            109.492215,
+            -7.482529
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 761,
+        "nomor_ruas": "I.16",
+        "nama_ruas": "GUMINGSIR-SOKAYASA",
+        "titik_awal": "JL NASIONAL KM 4 HM 8",
+        "titik_akhir": "I.17",
+        "panjang_km": 3,
+        "lebar_m": 4.5
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.726183,
+            -7.392057
+          ],
+          [
+            109.721954,
+            -7.404128
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 762,
+        "nomor_ruas": "I.18",
+        "nama_ruas": "SOKAYASA-PRINGAMBA",
+        "titik_awal": "I.17",
+        "titik_akhir": "I.4/I.25",
+        "panjang_km": 6.181,
+        "lebar_m": 5.1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.754184,
+            -7.435301
+          ],
+          [
+            109.735116,
+            -7.412119
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 763,
+        "nomor_ruas": "I.19",
+        "nama_ruas": "SEMARANG-KARANGTENGAH",
+        "titik_awal": "I.17/VI.27",
+        "titik_akhir": "I.15",
+        "panjang_km": 3.957,
+        "lebar_m": 4.5
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.703322,
+            -7.405282
+          ],
+          [
+            109.685415,
+            -7.403845
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 764,
+        "nomor_ruas": "I.2",
+        "nama_ruas": "RANDEGAN-KALIKUTA",
+        "titik_awal": "JL PROP KM 14 HM 1 BNA",
+        "titik_akhir": "I.1/I.1",
+        "panjang_km": 7.241,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.817942,
+            -7.417388
+          ],
+          [
+            109.820676,
+            -7.447491
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 765,
+        "nomor_ruas": "I.27",
+        "nama_ruas": "KALISEMI-TLAGAWERA",
+        "titik_awal": "I.17/I.17",
+        "titik_akhir": "I.17/I.17",
+        "panjang_km": 2.49,
+        "lebar_m": 2.5
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.721081,
+            -7.409919
+          ],
+          [
+            109.716437,
+            -7.393008
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 766,
+        "nomor_ruas": "I.29",
+        "nama_ruas": "PARAKANCANGGAH-KENTENG",
+        "titik_awal": "VI.30/VI.30",
+        "titik_akhir": "I.9/I.9",
+        "panjang_km": 1.509,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.706054,
+            -7.391115
+          ],
+          [
+            109.708495,
+            -7.379814
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 767,
+        "nomor_ruas": "I.44",
+        "nama_ruas": "PUCANG-GEMURUH",
+        "titik_awal": "JL NASIONAL/PEREMPATAN PUCANG",
+        "titik_akhir": "I.41 STA 450",
+        "panjang_km": 1.784,
+        "lebar_m": 2.5
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.662885,
+            -7.398237
+          ],
+          [
+            109.654037,
+            -7.402309
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 768,
+        "nomor_ruas": "II.2",
+        "nama_ruas": "KALIMENDONG- MERDEN",
+        "titik_awal": "JL NAS. KM 31 HM 4 BMS",
+        "titik_akhir": "II.3/II.5/II.6",
+        "panjang_km": 2.871,
+        "lebar_m": 4.5
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.538798,
+            -7.445738
+          ],
+          [
+            109.541012,
+            -7.466512
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 769,
+        "nomor_ruas": "I.30",
+        "nama_ruas": "SEMAMPIR-GOTONG ROYONG",
+        "titik_awal": "Jalan Nasional",
+        "titik_akhir": "VI.7/VI.7",
+        "panjang_km": 2.606,
+        "lebar_m": 4.5
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.673366,
+            -7.399122
+          ],
+          [
+            109.690145,
+            -7.392571
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 770,
+        "nomor_ruas": "II.32",
+        "nama_ruas": "KALIMANDI-KLAMPOK",
+        "titik_awal": "Jalan Nasional",
+        "titik_akhir": "Jalan Nasional",
+        "panjang_km": 0.823,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.45272,
+            -7.456268
+          ],
+          [
+            109.44844,
+            -7.45756
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 771,
+        "nomor_ruas": "I.34",
+        "nama_ruas": "MASARAN-TWELAGIRI",
+        "titik_awal": "PUSKESMAS MASARAN",
+        "titik_akhir": "I.15 / I.15",
+        "panjang_km": 4.39,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.644601,
+            -7.422241
+          ],
+          [
+            109.680664,
+            -7.418308
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 772,
+        "nomor_ruas": "I.4",
+        "nama_ruas": "GRIBIG-PRINGAMBA",
+        "titik_awal": "JL PROP KM 11 HM 5-6 BNA",
+        "titik_akhir": "I.25/I.25",
+        "panjang_km": 2.245,
+        "lebar_m": 4
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.78832,
+            -7.409943
+          ],
+          [
+            109.754184,
+            -7.435301
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 773,
+        "nomor_ruas": "I.40",
+        "nama_ruas": "BAWANG-TAPEN",
+        "titik_awal": "JL PROP. KM 9 HM 0 BNA",
+        "titik_akhir": "III.17/III.17",
+        "panjang_km": 3.15,
+        "lebar_m": 6
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.605748,
+            -7.405692
+          ],
+          [
+            109.595061,
+            -7.390637
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 774,
+        "nomor_ruas": "I.41",
+        "nama_ruas": "PUCANG-MASARAN",
+        "titik_awal": "JL NAS. KM3 HM 3 BNA/PASAR",
+        "titik_akhir": "I.44 STA 3200",
+        "panjang_km": 2.926,
+        "lebar_m": 4.5
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.654373,
+            -7.398247
+          ],
+          [
+            109.642281,
+            -7.411341
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 775,
+        "nomor_ruas": "VI.27",
+        "nama_ruas": "JL TIRTOSARI",
+        "titik_awal": "VI.15/VI.24/VI.31",
+        "titik_akhir": "I.17/I.19",
+        "panjang_km": 0.851,
+        "lebar_m": 13.8
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.701003,
+            -7.397225
+          ],
+          [
+            109.701775,
+            -7.404567
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 776,
+        "nomor_ruas": "I.46",
+        "nama_ruas": "KUTAYASA-KUTAWULUH",
+        "titik_awal": "I.45",
+        "titik_akhir": "II.7",
+        "panjang_km": 4.206,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.608908,
+            -7.421138
+          ],
+          [
+            109.621356,
+            -7.438745
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 777,
+        "nomor_ruas": "III.26",
+        "nama_ruas": "BANDINGAN-PINGIT",
+        "titik_awal": "III.21",
+        "titik_akhir": "III.20",
+        "panjang_km": 1.815,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.529845,
+            -7.41716
+          ],
+          [
+            109.516008,
+            -7.4144
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 778,
+        "nomor_ruas": "I.5",
+        "nama_ruas": "SIGALUH-KEMIRI",
+        "titik_awal": "JL PROP KM 8 HM 8-9 BNA",
+        "titik_akhir": "OBYEK WISATA CURUGPITU",
+        "panjang_km": 3.069,
+        "lebar_m": 4.5
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.7527,
+            -7.391478
+          ],
+          [
+            109.757263,
+            -7.413913
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 779,
+        "nomor_ruas": "I.9",
+        "nama_ruas": "REJASA-MADUKARA",
+        "titik_awal": "JL PROP KM 1 HM 0-1 BNA",
+        "titik_akhir": "I.8",
+        "panjang_km": 7.256,
+        "lebar_m": 4.5
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.69077,
+            -7.386948
+          ],
+          [
+            109.746159,
+            -7.379185
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 780,
+        "nomor_ruas": "II.11",
+        "nama_ruas": "PURWASABA- MERDEN",
+        "titik_awal": "JL.PROV Gandulekor-Gombong",
+        "titik_akhir": "II.2",
+        "panjang_km": 7.722,
+        "lebar_m": 4
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.476267,
+            -7.469765
+          ],
+          [
+            109.536526,
+            -7.463119
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 781,
+        "nomor_ruas": "II.23",
+        "nama_ruas": "KALIMANDI-KEDUNGPANE",
+        "titik_awal": "JL NAS. KM 19 HM 4-5 BMS",
+        "titik_akhir": "Jalan Prov Gandulekor-Gombong",
+        "panjang_km": 6.047,
+        "lebar_m": 4.5
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.451165,
+            -7.456892
+          ],
+          [
+            109.477517,
+            -7.483628
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 782,
+        "nomor_ruas": "II.24",
+        "nama_ruas": "PURWASABA-PURWAREJA",
+        "titik_awal": "Jalan Prov Gandulekor-Gombong",
+        "titik_akhir": "JL NAS. KM 17 HM 6-5 BMS",
+        "panjang_km": 5.559,
+        "lebar_m": 4.5
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.461909,
+            -7.477055
+          ],
+          [
+            109.428935,
+            -7.47604
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 783,
+        "nomor_ruas": "VI.15",
+        "nama_ruas": "JL MAY. JEND. PANJAITAN",
+        "titik_awal": "VI.1",
+        "titik_akhir": "VI.24/VI.27/VI.28",
+        "panjang_km": 0.89,
+        "lebar_m": 10
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.701003,
+            -7.397225
+          ],
+          [
+            109.693033,
+            -7.398393
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 784,
+        "nomor_ruas": "II.28",
+        "nama_ruas": "KALIMANDI-SIRKANDI",
+        "titik_awal": "Jalan Nasional",
+        "titik_akhir": "II.23",
+        "panjang_km": 3.486,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.459097,
+            -7.454563
+          ],
+          [
+            109.462331,
+            -7.484349
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 785,
+        "nomor_ruas": "II.37",
+        "nama_ruas": "PIASA-KEMAWI",
+        "titik_awal": "JL Nasional KM 19 HM 3-4 BMS",
+        "titik_akhir": "Batas Kab. Banyumas (K. PIASA)",
+        "panjang_km": 1.763,
+        "lebar_m": 3.5
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.365067,
+            -7.506532
+          ],
+          [
+            109.36961,
+            -7.516778
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 786,
+        "nomor_ruas": "II.39",
+        "nama_ruas": "SUSUKAN-KEMARANGGON",
+        "titik_awal": "Jalan Nasional",
+        "titik_akhir": "II.36",
+        "panjang_km": 3.767,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.404997,
+            -7.491353
+          ],
+          [
+            109.388636,
+            -7.480813
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 787,
+        "nomor_ruas": "II.40",
+        "nama_ruas": "GUMELEM WETAN-PIASA WETAN",
+        "titik_awal": "II.33",
+        "titik_akhir": "II.37",
+        "panjang_km": 6.128,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.409456,
+            -7.501637
+          ],
+          [
+            109.364536,
+            -7.50962
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 788,
+        "nomor_ruas": "II.5",
+        "nama_ruas": "DANAREJA- MERDEN",
+        "titik_awal": "JL NAS",
+        "titik_akhir": "II.2/II.3/II.6",
+        "panjang_km": 3.734,
+        "lebar_m": 3.5
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.546893,
+            -7.441977
+          ],
+          [
+            109.541012,
+            -7.466512
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 789,
+        "nomor_ruas": "I.39",
+        "nama_ruas": "LEBAKWANGI-KEBONDALEM",
+        "titik_awal": "I.36",
+        "titik_akhir": "I.35",
+        "panjang_km": 0,
+        "lebar_m": 0
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 790,
+        "nomor_ruas": "III.10",
+        "nama_ruas": "MEDAYU-PASEH",
+        "titik_awal": "III.17",
+        "titik_akhir": "III.3",
+        "panjang_km": 2.211,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.661176,
+            -7.368201
+          ],
+          [
+            109.670724,
+            -7.352337
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 791,
+        "nomor_ruas": "III.20",
+        "nama_ruas": "SITUWANGI-PINGIT",
+        "titik_awal": "III.17",
+        "titik_akhir": "SITUWANGI/III.17",
+        "panjang_km": 2.524,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.515965,
+            -7.42123
+          ],
+          [
+            109.513088,
+            -7.442439
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 792,
+        "nomor_ruas": "III.12",
+        "nama_ruas": "WANAKARSA-KARANGKEMIRI",
+        "titik_awal": "III.17",
+        "titik_akhir": "III.17",
+        "panjang_km": 3.563,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.634397,
+            -7.366152
+          ],
+          [
+            109.643946,
+            -7.365275
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 793,
+        "nomor_ruas": "III.22",
+        "nama_ruas": "BANDINGAN-BATAS AKB.PURBALINGGA",
+        "titik_awal": "III.21",
+        "titik_akhir": "Batas Kab. Purbalingga",
+        "panjang_km": 1.082,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.532235,
+            -7.413343
+          ],
+          [
+            109.532623,
+            -7.406988
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 794,
+        "nomor_ruas": "III.13",
+        "nama_ruas": "KARANGJAMBE-SAWANGAN",
+        "titik_awal": "III.17",
+        "titik_akhir": "III.11",
+        "panjang_km": 3.003,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.614028,
+            -7.375708
+          ],
+          [
+            109.591805,
+            -7.375856
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 795,
+        "nomor_ruas": "III.24",
+        "nama_ruas": "PINGIT-BANTARMALANG",
+        "titik_awal": "III.20",
+        "titik_akhir": "Batas Kab. Purbalingga",
+        "panjang_km": 2.474,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.515965,
+            -7.42123
+          ],
+          [
+            109.502127,
+            -7.413808
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 796,
+        "nomor_ruas": "III.14",
+        "nama_ruas": "MEDAYU-KLETHAK",
+        "titik_awal": "III.10",
+        "titik_akhir": "III.2",
+        "panjang_km": 2.125,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.668116,
+            -7.358231
+          ],
+          [
+            109.65923,
+            -7.349318
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 797,
+        "nomor_ruas": "III.31",
+        "nama_ruas": "TANJUNGTIRTA-SAMPANG",
+        "titik_awal": "III.30/III.32",
+        "titik_akhir": "III.29",
+        "panjang_km": 3.436,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.628111,
+            -7.328671
+          ],
+          [
+            109.604348,
+            -7.340323
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 798,
+        "nomor_ruas": "V.9",
+        "nama_ruas": "DAWUHAN-PRINGWULUNG",
+        "titik_awal": "IV.11",
+        "titik_akhir": "V.29",
+        "panjang_km": 1.591,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.765522,
+            -7.266974
+          ],
+          [
+            109.760643,
+            -7.27613
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 799,
+        "nomor_ruas": "III.33",
+        "nama_ruas": "JEMBANGAN-PENANGGUNGAN",
+        "titik_awal": "III.28",
+        "titik_akhir": "JEMB. K. SIKOKOL",
+        "panjang_km": 2.158,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.580191,
+            -7.307362
+          ],
+          [
+            109.59296,
+            -7.293446
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 800,
+        "nomor_ruas": "VI.28",
+        "nama_ruas": "JL BRIG. JEND. B. SUGENG",
+        "titik_awal": "VI.28",
+        "titik_akhir": "VI.15/VI.24/VI.27",
+        "panjang_km": 0.455,
+        "lebar_m": 6
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.704199,
+            -7.395162
+          ],
+          [
+            109.701003,
+            -7.397225
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 801,
+        "nomor_ruas": "III.35",
+        "nama_ruas": "TRIBUANA-KECEPIT",
+        "titik_awal": "III.35/III.35",
+        "titik_akhir": "III.16/III.16",
+        "panjang_km": 3.923,
+        "lebar_m": 3.75
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.565203,
+            -7.385458
+          ],
+          [
+            109.561029,
+            -7.358578
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 802,
+        "nomor_ruas": "III.38",
+        "nama_ruas": "DANAKERTA-SAMBONG",
+        "titik_awal": "III.16",
+        "titik_akhir": "III.42",
+        "panjang_km": 5.352,
+        "lebar_m": 0
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.541053,
+            -7.355062
+          ],
+          [
+            109.542122,
+            -7.381873
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 803,
+        "nomor_ruas": "III.39",
+        "nama_ruas": "DANAKERTA-DOMAS",
+        "titik_awal": "III.16",
+        "titik_akhir": "III.41",
+        "panjang_km": 2.569,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.537729,
+            -7.357237
+          ],
+          [
+            109.524653,
+            -7.34599
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 804,
+        "nomor_ruas": "III.40",
+        "nama_ruas": "DANAKERTA-NANGKOD",
+        "titik_awal": "III.16",
+        "titik_akhir": "Bts Kab. Purbalingga",
+        "panjang_km": 2.573,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.533072,
+            -7.35856
+          ],
+          [
+            109.535586,
+            -7.375816
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 805,
+        "nomor_ruas": "VI.70",
+        "nama_ruas": "JL SOKANANDI I",
+        "titik_awal": "VI.4/Jalan Nasional",
+        "titik_akhir": "VI.4/Jalan Nasional",
+        "panjang_km": 2.09,
+        "lebar_m": 3.5
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.716975,
+            -7.392185
+          ],
+          [
+            109.718779,
+            -7.391728
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 806,
+        "nomor_ruas": "III.42",
+        "nama_ruas": "TRIBUANA-SAMBONG",
+        "titik_awal": "III.34/III.35",
+        "titik_akhir": "III.37",
+        "panjang_km": 2.802,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.565203,
+            -7.385458
+          ],
+          [
+            109.545593,
+            -7.391721
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 807,
+        "nomor_ruas": "I.37",
+        "nama_ruas": "WATUBELAH-WIRASARI",
+        "titik_awal": "I.15 / I.15",
+        "titik_akhir": "I.20/Perempatan Wirasari",
+        "panjang_km": 0.868,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.69289,
+            -7.439196
+          ],
+          [
+            109.692855,
+            -7.423066
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 808,
+        "nomor_ruas": "III.46",
+        "nama_ruas": "SIDARATA-PUNGGELAN",
+        "titik_awal": "III.34",
+        "titik_akhir": "III.16",
+        "panjang_km": 2.908,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.595127,
+            -7.370828
+          ],
+          [
+            109.58681,
+            -7.351656
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 809,
+        "nomor_ruas": "IV.15",
+        "nama_ruas": "KALIBENING-GUNUNGLANGIT",
+        "titik_awal": "JL PROP KM 37",
+        "titik_akhir": "JL PROP KM 49",
+        "panjang_km": 7.082,
+        "lebar_m": 3.5
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.639233,
+            -7.221112
+          ],
+          [
+            109.625613,
+            -7.205183
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 810,
+        "nomor_ruas": "IV.18",
+        "nama_ruas": "RAWAPAKIS-BAKULAN",
+        "titik_awal": "IV.19",
+        "titik_akhir": "HUTAN PINUS DUKUH BAKULAN",
+        "panjang_km": 3.134,
+        "lebar_m": 4
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.695497,
+            -7.248448
+          ],
+          [
+            109.684265,
+            -7.23535
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 811,
+        "nomor_ruas": "IV.2",
+        "nama_ruas": "KUBANG-BANTAR",
+        "titik_awal": "IV.11",
+        "titik_akhir": "IV.8/V.7",
+        "panjang_km": 5.345,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.75246,
+            -7.270379
+          ],
+          [
+            109.73904,
+            -7.308495
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 812,
+        "nomor_ruas": "IV.21",
+        "nama_ruas": "SEMBAWA-SEMINGKIR",
+        "titik_awal": "III.1",
+        "titik_akhir": "IV.13",
+        "panjang_km": 2.912,
+        "lebar_m": 4
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.662457,
+            -7.273328
+          ],
+          [
+            109.664816,
+            -7.250466
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 813,
+        "nomor_ruas": "IV.22",
+        "nama_ruas": "SIDAKANGEN-BEDANA",
+        "titik_awal": "Jalan Provinsi",
+        "titik_akhir": "IV.15",
+        "panjang_km": 4.684,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.652223,
+            -7.217862
+          ],
+          [
+            109.643131,
+            -7.194095
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 814,
+        "nomor_ruas": "IV.3",
+        "nama_ruas": "KARANGGONDANG-PEGERPELAH",
+        "titik_awal": "IV.10/IV.12/IV.19",
+        "titik_akhir": "III.8",
+        "panjang_km": 4.769,
+        "lebar_m": 4
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.698241,
+            -7.29013
+          ],
+          [
+            109.70153,
+            -7.289264
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 815,
+        "nomor_ruas": "IV.5",
+        "nama_ruas": "KARANGKOBAR-DIWEK",
+        "titik_awal": "IV.4",
+        "titik_akhir": "IV.9",
+        "panjang_km": 1.724,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.742327,
+            -7.266687
+          ],
+          [
+            109.716676,
+            -7.262772
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 816,
+        "nomor_ruas": "IV.8",
+        "nama_ruas": "KARANGKOBAR-BANTAR",
+        "titik_awal": "PASAR KARANGKOBAR/JL PROV",
+        "titik_akhir": "IV.2/V.7",
+        "panjang_km": 2.341,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.741632,
+            -7.27234
+          ],
+          [
+            109.74643,
+            -7.286091
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 817,
+        "nomor_ruas": "V.3",
+        "nama_ruas": "WANARAJA-WOTGALAR",
+        "titik_awal": "JL PROP KM 2 HM 2 WNY",
+        "titik_akhir": "V.12",
+        "panjang_km": 4.593,
+        "lebar_m": 4
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.760752,
+            -7.228362
+          ],
+          [
+            109.752702,
+            -7.210996
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 818,
+        "nomor_ruas": "V.1",
+        "nama_ruas": "JIWAN-KASIMPAR",
+        "titik_awal": "Jalan Provinsi KM 5 HM 4 WNY",
+        "titik_akhir": "V.37",
+        "panjang_km": 2.618,
+        "lebar_m": 4
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.77275,
+            -7.213212
+          ],
+          [
+            109.780588,
+            -7.200473
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 819,
+        "nomor_ruas": "V.11",
+        "nama_ruas": "KALIDERES-KARANGMALANG",
+        "titik_awal": "V.2",
+        "titik_akhir": "Dukuh Karangmalang",
+        "panjang_km": 2.434,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.759467,
+            -7.204244
+          ],
+          [
+            109.742882,
+            -7.204172
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 820,
+        "nomor_ruas": "VI.30",
+        "nama_ruas": "JL LETNAN  KARJONO",
+        "titik_awal": "VI.24",
+        "titik_akhir": "VI.3/VI.4/Jalan Nasional",
+        "panjang_km": 1.809,
+        "lebar_m": 6
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.704378,
+            -7.39197
+          ],
+          [
+            109.714866,
+            -7.392057
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 821,
+        "nomor_ruas": "V.15",
+        "nama_ruas": "BITING-SARWODADI",
+        "titik_awal": "IV.11",
+        "titik_akhir": "V.18/V22",
+        "panjang_km": 2.806,
+        "lebar_m": 4
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.786434,
+            -7.249112
+          ],
+          [
+            109.772707,
+            -7.244306
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 822,
+        "nomor_ruas": "V.17",
+        "nama_ruas": "GROGOL-TLAGABANG",
+        "titik_awal": "Jalan Provinsi",
+        "titik_akhir": "Jalan Provinsi",
+        "panjang_km": 2.556,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.792345,
+            -7.208225
+          ],
+          [
+            109.805994,
+            -7.202722
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 823,
+        "nomor_ruas": "V.20",
+        "nama_ruas": "KALILUNJAR-KAREKAN",
+        "titik_awal": "V.16",
+        "titik_akhir": "V.19",
+        "panjang_km": 2.663,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.771995,
+            -7.265011
+          ],
+          [
+            109.783636,
+            -7.278597
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 824,
+        "nomor_ruas": "V.23",
+        "nama_ruas": "DERMAYASA-PLUNJARAN",
+        "titik_awal": "V.19",
+        "titik_akhir": "V.24",
+        "panjang_km": 2.926,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.79484,
+            -7.265304
+          ],
+          [
+            109.813854,
+            -7.26896
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 825,
+        "nomor_ruas": "V.28",
+        "nama_ruas": "ARIBAYA-SOKARAJA",
+        "titik_awal": "V.25",
+        "titik_akhir": "I.8",
+        "panjang_km": 2.825,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.769352,
+            -7.335766
+          ],
+          [
+            109.788594,
+            -7.336271
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 826,
+        "nomor_ruas": "V.33",
+        "nama_ruas": "RATAMBA-MRAMEN",
+        "titik_awal": "IV.11",
+        "titik_akhir": "V.34",
+        "panjang_km": 2.064,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.822322,
+            -7.227741
+          ],
+          [
+            109.833447,
+            -7.219
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 827,
+        "nomor_ruas": "VI.4",
+        "nama_ruas": "JL TENTARA PELAJAR",
+        "titik_awal": "VI.3/VI.30",
+        "titik_akhir": "TUGU BATAS KOTA ( TIMUR )",
+        "panjang_km": 2.11,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.714866,
+            -7.392057
+          ],
+          [
+            109.735413,
+            -7.3917
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 828,
+        "nomor_ruas": "VI.45",
+        "nama_ruas": "JL SEDAP MALAM",
+        "titik_awal": "VI.32",
+        "titik_akhir": "VI.42/VI.43",
+        "panjang_km": 0.1,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.724405,
+            -7.390664
+          ],
+          [
+            109.725322,
+            -7.391217
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 829,
+        "nomor_ruas": "V.36",
+        "nama_ruas": "PURWAJIWA-BTS KABUPATEN",
+        "titik_awal": "JL PROP KM 3 BTR",
+        "titik_akhir": "TUGU BTS KAB BATANG",
+        "panjang_km": 4.109,
+        "lebar_m": 4.5
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.817667,
+            -7.201276
+          ],
+          [
+            109.821971,
+            -7.177081
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 830,
+        "nomor_ruas": "V.4",
+        "nama_ruas": "PAYAMAN-DAWUHAN",
+        "titik_awal": "JL PROP KM 29 HM 2 BNA",
+        "titik_akhir": "IV.11",
+        "panjang_km": 2.45,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.747355,
+            -7.253152
+          ],
+          [
+            109.756641,
+            -7.269918
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 831,
+        "nomor_ruas": "V.42",
+        "nama_ruas": "KEPAKISAN- BTS KAB. BATANG",
+        "titik_awal": "V.31",
+        "titik_akhir": "Batas Kab. Batang",
+        "panjang_km": 3.626,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.880771,
+            -7.199452
+          ],
+          [
+            109.8917,
+            -7.182812
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 832,
+        "nomor_ruas": "V.41",
+        "nama_ruas": "CONDONGCAMPUR-GEMBOL",
+        "titik_awal": "Jalan Prov./Lap. Ds Gembol",
+        "titik_akhir": "V.30",
+        "panjang_km": 1.997,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.867755,
+            -7.225863
+          ],
+          [
+            109.854749,
+            -7.227733
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 833,
+        "nomor_ruas": "V.5",
+        "nama_ruas": "PAYAMAN-PESANTREN",
+        "titik_awal": "JL PROP KM 29 HM 1 BNA",
+        "titik_akhir": "JL PROP KM 32 HM 4 BNA",
+        "panjang_km": 3.847,
+        "lebar_m": 4
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.747201,
+            -7.25246
+          ],
+          [
+            109.726238,
+            -7.239287
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 834,
+        "nomor_ruas": "V.6",
+        "nama_ruas": "TEMPURAN-BALUN",
+        "titik_awal": "JL PROP KM 30 HM 6-7 BNA",
+        "titik_akhir": "Jalan Provinsi",
+        "panjang_km": 3.732,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.741155,
+            -7.238015
+          ],
+          [
+            109.721158,
+            -7.235805
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 835,
+        "nomor_ruas": "V.7",
+        "nama_ruas": "BANTAR-SUWIDAK",
+        "titik_awal": "IV.2/IV.8",
+        "titik_akhir": "DESA SUWIDAK",
+        "panjang_km": 1.706,
+        "lebar_m": 3.5
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.73904,
+            -7.308495
+          ],
+          [
+            109.747761,
+            -7.320452
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 836,
+        "nomor_ruas": "VI.47",
+        "nama_ruas": "JL KALIBENDA I",
+        "titik_awal": "VI.4/Jalan Nasional",
+        "titik_akhir": "VI.47",
+        "panjang_km": 0.95,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.729216,
+            -7.392259
+          ],
+          [
+            109.728932,
+            -7.391138
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 837,
+        "nomor_ruas": "VI.5",
+        "nama_ruas": "JL AL MUNAWAROH",
+        "titik_awal": "VI.1/I.15",
+        "titik_akhir": "I.30/VI.7",
+        "panjang_km": 0.797,
+        "lebar_m": 8.35
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.686032,
+            -7.399578
+          ],
+          [
+            109.690184,
+            -7.395258
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 838,
+        "nomor_ruas": "VI.57",
+        "nama_ruas": "JL GARUDA",
+        "titik_awal": "VI.3/Jalan Nasional",
+        "titik_akhir": "VI.69",
+        "panjang_km": 0.8,
+        "lebar_m": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.712728,
+            -7.39238
+          ],
+          [
+            109.706073,
+            -7.392047
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 839,
+        "nomor_ruas": "II.10",
+        "nama_ruas": "MANDIRAJA-SOMAWANGI",
+        "titik_awal": "II.11",
+        "titik_akhir": "II.8",
+        "panjang_km": 3.42,
+        "lebar_m": 4.5
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.521479,
+            -7.4583
+          ],
+          [
+            109.522544,
+            -7.458341
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 840,
+        "nomor_ruas": "II.36",
+        "nama_ruas": "SUSUKAN-BTS PURBALINGGA",
+        "titik_awal": "JL Nasional KM 13 HM 9 BMS",
+        "titik_akhir": "K.SERAYU",
+        "panjang_km": 3.276,
+        "lebar_m": 4
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.39307,
+            -7.496352
+          ],
+          [
+            109.385,
+            -7.47967
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 841,
+        "nomor_ruas": "III.2",
+        "nama_ruas": "PASEH-SIPEDANG",
+        "titik_awal": "III.3",
+        "titik_akhir": "III.5",
+        "panjang_km": 0,
+        "lebar_m": 0
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ]
+      }
+    }
+  ]
+}

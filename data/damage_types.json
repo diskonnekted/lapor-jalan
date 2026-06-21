@@ -1,0 +1,86 @@
+[
+  {
+    "id": "crack_alligator",
+    "category": "Retakan",
+    "label": "Retak Buaya (Jaring)",
+    "description": "Retakan saling terhubung menyerupai kulit buaya"
+  },
+  {
+    "id": "crack_longitudinal",
+    "category": "Retakan",
+    "label": "Retak Memanjang",
+    "description": "Garis retakan searah dengan arah jalan"
+  },
+  {
+    "id": "crack_transverse",
+    "category": "Retakan",
+    "label": "Retak Melintang",
+    "description": "Garis retakan memotong melintang arah jalan"
+  },
+  {
+    "id": "crack_block",
+    "category": "Retakan",
+    "label": "Retak Blok",
+    "description": "Retakan membentuk pola kotak-kotak atau balok"
+  },
+  {
+    "id": "crack_edge",
+    "category": "Retakan",
+    "label": "Retak Tepi",
+    "description": "Retakan di pinggiran jalan"
+  },
+  {
+    "id": "dis_pothole",
+    "category": "Lubang & Pelepasan",
+    "label": "Lubang (Pothole)",
+    "description": "Terdapat lubang pada permukaan jalan"
+  },
+  {
+    "id": "dis_raveling",
+    "category": "Lubang & Pelepasan",
+    "label": "Pengelupasan / Berkerikil",
+    "description": "Permukaan jalan kasar, batu kerikil lepas"
+  },
+  {
+    "id": "dis_patching",
+    "category": "Lubang & Pelepasan",
+    "label": "Tambalan Rusak",
+    "description": "Kerusakan pada area yang sudah ditambal"
+  },
+  {
+    "id": "def_rutting",
+    "category": "Deformasi",
+    "label": "Alur (Rutting)",
+    "description": "Cekungan memanjang pada bekas lintasan roda"
+  },
+  {
+    "id": "def_settlement",
+    "category": "Deformasi",
+    "label": "Amblas / Penurunan",
+    "description": "Permukaan jalan turun/ambles membentuk cekungan"
+  },
+  {
+    "id": "def_corrugation",
+    "category": "Deformasi",
+    "label": "Gelembung / Bergelombang",
+    "description": "Permukaan jalan menonjol atau bergelombang"
+  },
+  {
+    "id": "surf_ponding",
+    "category": "Permukaan & Drainase",
+    "label": "Genangan Air",
+    "description": "Air menggenang di badan jalan"
+  },
+  {
+    "id": "surf_bleeding",
+    "category": "Permukaan & Drainase",
+    "label": "Aspal Meleleh (Licin)",
+    "description": "Aspal berlebih, hitam mengkilap dan licin"
+  },
+  {
+    "id": "surf_shoulder_drop",
+    "category": "Permukaan & Drainase",
+    "label": "Bahu Jalan Turun",
+    "description": "Tebing/penurunan tajam di tepi jalan"
+  }
+]
