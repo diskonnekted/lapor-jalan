@@ -7,6 +7,16 @@ import { DAMAGE_TYPES_BY_CATEGORY, getDamageTypeById } from '../utils/damageType
 import PWAInstallPrompt from '../components/PWAInstallPrompt';
 import './MobileApp.css';
 
+// Helper function for damage type labels (used in multiple components)
+const getDamageTypeLabel = (id) => {
+  if (!id) return '';
+  for (const [, types] of Object.entries(DAMAGE_TYPES_BY_CATEGORY || {})) {
+    const found = types.find(t => t.id === id);
+    if (found) return found.label;
+  }
+  return id;
+};
+
 // Fix Leaflet icons
 delete L.Icon.Default.prototype._getIconUrl;
 L.Icon.Default.mergeOptions({
@@ -399,15 +409,6 @@ function PageLaporanList() {
 
   const daysSince = (dateStr) => Math.max(0, Math.floor((new Date() - new Date(dateStr)) / 86400000));
 
-  const getDamageTypeLabel = (id) => {
-    if (!id) return '';
-    for (const [, types] of Object.entries(DAMAGE_TYPES_BY_CATEGORY || {})) {
-      const found = types.find(t => t.id === id);
-      if (found) return found.label;
-    }
-    return id;
-  };
-
   const getDamageTypeCategory = (id) => {
     if (!id) return '';
     for (const [cat, types] of Object.entries(DAMAGE_TYPES_BY_CATEGORY || {})) {
@@ -564,15 +565,119 @@ function PageLaporanList() {
 // Halaman: Peta
 function PagePeta({ laporan }) {
   const mapRef = useRef(null);
+  const [selectedMarker, setSelectedMarker] = useState(null);
 
   useEffect(() => {
-    // Invalidate map size when component mounts or tab changes
     setTimeout(() => {
       if (mapRef.current) {
         mapRef.current.invalidateSize();
       }
     }, 100);
   }, []);
+
+  const daysSince = (dateStr) => Math.max(0, Math.floor((new Date() - new Date(dateStr)) / 86400000));
+
+  // Detail Modal Overlay
+  if (selectedMarker) {
+    const l = selectedMarker;
+    return (
+      <div className="mobile-map-page">
+        <div className="mobile-header-overlay">
+          <span>Peta Kerusakan</span>
+          <span style={{ fontSize: '0.8rem', color: 'rgba(255,255,255,0.8)' }}>{laporan.length} laporan</span>
+        </div>
+        <MapContainer
+          center={[-7.4, 109.68]}
+          zoom={12}
+          className="mobile-leaflet-map"
+          ref={mapRef}
+          whenCreated={(map) => setTimeout(() => map.invalidateSize(), 100)}
+        >
+          <TileLayer attribution="&copy; OpenStreetMap" url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+          {laporan.filter((r) => r.lat && r.lng).map((r, i) => (
+            <Marker key={i} position={[r.lat, r.lng]} icon={L.divIcon({ className: '', html: `<div style="background:${DAMAGE_CONFIG[r.tingkat_kerusakan]?.color || '#999'};width:14px;height:14px;border-radius:50%;border:2px solid white;box-shadow:0 2px 4px rgba(0,0,0,0.3);"></div>`, iconSize: [14, 14], iconAnchor: [7, 7] })} />
+          ))}
+        </MapContainer>
+
+        {/* Marker Detail Modal */}
+        <div className="laporan-detail-overlay" style={{ bottom: 0 }} onClick={() => setSelectedMarker(null)}>
+          <div className="laporan-detail-content" onClick={(e) => e.stopPropagation()}>
+            <div className="laporan-detail-header">
+              <span>Laporan #{l.id}</span>
+              <button className="detail-close-btn" onClick={() => setSelectedMarker(null)}>{Icons.close}</button>
+            </div>
+            {l.foto_path && (
+              <div className="detail-photo">
+                <img src={resolveImageUrl(l.foto_path)} alt="Foto kerusakan" />
+              </div>
+            )}
+            <div className="detail-body">
+              <div className="detail-row">
+                <span className="detail-label">Jenis Kerusakan</span>
+                <span className="detail-value">
+                  {l.jenis_kerusakan ? <strong>{getDamageTypeLabel(l.jenis_kerusakan)}</strong> : <span style={{ color: '#999' }}>—</span>}
+                </span>
+              </div>
+              <div className="detail-row">
+                <span className="detail-label">Keparahan</span>
+                <span className="detail-value">
+                  <span className="badge-sm" style={{ background: DAMAGE_CONFIG[l.tingkat_kerusakan]?.color + '20', color: DAMAGE_CONFIG[l.tingkat_kerusakan]?.color }}>
+                    {DAMAGE_CONFIG[l.tingkat_kerusakan]?.label}
+                  </span>
+                </span>
+              </div>
+              <div className="detail-row">
+                <span className="detail-label">Lokasi</span>
+                <span className="detail-value">
+                  {l.desa ? (
+                    <>
+                      <div>{l.desa}</div>
+                      <div style={{ fontSize: '0.8rem', color: '#999' }}>{l.kecamatan}, Banjarnegara</div>
+                    </>
+                  ) : (
+                    <span style={{ color: '#999' }}>{l.alamat || `${l.lat?.toFixed(4)}, ${l.lng?.toFixed(4)}`}</span>
+                  )}
+                </span>
+              </div>
+              <div className="detail-row">
+                <span className="detail-label">Status</span>
+                <span className="detail-value">
+                  <span className="badge-sm" style={{ background: STATUS_CONFIG[l.status]?.color + '20', color: STATUS_CONFIG[l.status]?.color }}>
+                    {STATUS_CONFIG[l.status]?.label}
+                  </span>
+                </span>
+              </div>
+              <div className="detail-row">
+                <span className="detail-label">Pelapor</span>
+                <span className="detail-value">{l.nama_pelapor || 'Anonim'}{l.no_hp && <span style={{ color: '#999', fontSize: '0.85rem' }}> • {l.no_hp}</span>}</span>
+              </div>
+              {l.deskripsi && (
+                <div className="detail-row">
+                  <span className="detail-label">Deskripsi</span>
+                  <span className="detail-value">{l.deskripsi}</span>
+                </div>
+              )}
+              <div className="detail-row">
+                <span className="detail-label">Tanggal</span>
+                <span className="detail-value">
+                  {new Date(l.created_at).toLocaleDateString('id-ID', { day: '2-digit', month: 'long', year: 'numeric' })}
+                  <span style={{ color: '#999', fontSize: '0.85rem' }}> • {daysSince(l.created_at)} hari lalu</span>
+                </span>
+              </div>
+              {l.foto_perbaikan_path && (
+                <div className="detail-row">
+                  <span className="detail-label">Foto Setelah Perbaikan</span>
+                  <div className="detail-photo-small">
+                    <img src={resolveImageUrl(l.foto_perbaikan_path)} alt="Foto perbaikan" />
+                  </div>
+                </div>
+              )}
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="mobile-map-page">
@@ -605,16 +710,8 @@ function PagePeta({ laporan }) {
                 iconSize: [14, 14],
                 iconAnchor: [7, 7],
               })}
-            >
-              <Popup>
-                <div style={{ minWidth: '150px' }}>
-                  <strong>{l.alamat || 'Lokasi'}</strong>
-                  <div style={{ fontSize: '0.75rem', color: DAMAGE_CONFIG[l.tingkat_kerusakan]?.color }}>
-                    {DAMAGE_CONFIG[l.tingkat_kerusakan]?.label}
-                  </div>
-                </div>
-              </Popup>
-            </Marker>
+              eventHandlers={{ click: () => setSelectedMarker(l) }}
+            />
           ))}
       </MapContainer>
     </div>
