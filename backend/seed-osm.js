@@ -9,7 +9,7 @@ const path = require("path");
 require("./db");
 const { db } = require("./db");
 
-const GEOJSON_PATH = path.join(__dirname, "../data/banjarnegara-jalan.geojson");
+const GEOJSON_PATH = path.join(__dirname, "data/banjarnegara-jalan.geojson");
 
 if (!fs.existsSync(GEOJSON_PATH)) {
   console.error("GeoJSON file not found:", GEOJSON_PATH);

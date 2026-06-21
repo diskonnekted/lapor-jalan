@@ -8,7 +8,7 @@ const path = require("path");
 // Import db.js first to ensure tables are created, then use its db instance
 const { db } = require("./db");
 
-const GEOJSON_PATH = path.join(__dirname, "../data/ruas_jalan.geojson");
+const GEOJSON_PATH = path.join(__dirname, "data/ruas_jalan.geojson");
 
 if (!fs.existsSync(GEOJSON_PATH)) {
   console.error("GeoJSON file not found:", GEOJSON_PATH);
