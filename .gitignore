@@ -13,6 +13,10 @@ node_modules/
 *.sqlite-wal
 *.sqlite-shm
 
+# Uploads
+backend/uploads/*
+!backend/uploads/.gitkeep
+
 # OS
 .DS_Store
 Thumbs.db
@@ -34,3 +38,6 @@ npm-debug.log*
 # Temp
 temp/
 *.tmp
+
+# Vercel
+.vercel/
